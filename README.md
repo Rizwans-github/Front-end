@@ -111,6 +111,28 @@ Combining all:
 
 ```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/38873872-1b2f-4e55-9777-cf17cdae9d03)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/bc308006-f1f6-4be0-95ac-7fba44dd4fd0)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/10395077-9365-452e-8747-8ae5928c07f2)
+```html
+<a href=
+'https://www.sololearn.com">
+Sololearn</a>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/67b6da7f-5e0b-41b2-a53f-5e098b11167e)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/605186da-6c62-4c83-9c94-83f83d4ac6de)
+```html
+<ol>
+  <li>Fruits</li>
+    <ul>
+      <li>Apple</li>
+      <li>Banana</li>
+    </ul>
+  <li>Milk</li>
+  <li>Cheese</li>
+</ol>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/8c542ec6-81e6-4aa6-962d-21483215c063)
+
 
 
 
