@@ -35,6 +35,83 @@ Combining all:
 <img src="https://unsplash.com/photos/a-couple-of-people-kneeling-down-to-plant-a-tree-qi4FA98Fg8w">
 <button>Click me</button>
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/f3fd71e3-803c-4889-9a92-ffbab3545113)
+
+```html
+<!--Menu section-->
+<h2> Menu </h2>
+<!--Menu options-->
+<p>Sushi</p>
+<p>Lasagna</p>
+<p>Paella</p>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/5f5fae58-17f7-47a6-bea9-92901e1d51ab)
+```html
+<head>
+<title>Title of the page</title>
+<meta name="author" content="Anna">
+</head>
+
+<!-- HTML head doesn't show up -->
+
+<body>
+<p>The content of the page</p>
+</body>
+
+
+<html>
+<head>
+<title>Title of the page</title>
+<meta name="author" content="Anna">
+</head>
+
+<body>
+<p>The content of the page</p>
+</body>
+</html>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/51ba0656-2ccf-4249-ab8a-cc9c32ebb8e9)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/d7ddef4d-cef0-4d7a-892c-286927a2d98b)
+
+```html
+<p><b>Bold</b> text</p>
+<p><i>Italic</i> text</p>
+<p><u>Underlined</u> text</p>
+
+<html>
+  <head>
+    <title>Title of the document</title>
+    <meta name="author" content="Anna">
+  </head>
+  
+  <body>
+    <p>I'd like to be notified
+    by <strong>email</strong></p>
+   
+    <p>I'd like to be notified 
+    by <b>email</b></p>
+  </body>
+</html>
+
+
+<html>
+  <head>
+    <title>Title of the document</title>
+    <meta name="author" content="Anna">
+  </head>
+  
+  <body>
+    <p>His favorite book
+    is the <em>Odyssey</em></p>
+    
+    <p>His favorite book
+    is the <i>Odyssey</i></p>
+  </body>
+</html>
+
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/38873872-1b2f-4e55-9777-cf17cdae9d03)
+
 
 
 
