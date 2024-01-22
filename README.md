@@ -111,6 +111,8 @@ Combining all:
 
 ```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/38873872-1b2f-4e55-9777-cf17cdae9d03)
+
+## Day 2:
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/bc308006-f1f6-4be0-95ac-7fba44dd4fd0)
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/10395077-9365-452e-8747-8ae5928c07f2)
 ```html
