@@ -134,8 +134,9 @@ Sololearn</a>
 </ol>
 ```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/8c542ec6-81e6-4aa6-962d-21483215c063)
-```html
 ## Day 3:
+```html
+
 **Landing Page Project**
 <html>
     <head>
@@ -300,7 +301,7 @@ You can do this with href="#top" or simply href="#".
   </body>
 </html>
 ```
-Lesson Takeaways
+**Lesson Takeaways**
 You’re unstoppable! You learned that:
 
  
@@ -310,3 +311,79 @@ You’re unstoppable! You learned that:
 ⭐ You can create navigation links as <a> tags within a <nav> tag
 
 ⭐ You can link to specific parts of a page by giving them an id attribute
+
+```html
+FORMS
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <form>
+      <input type="text">
+      <input type="radio">
+      <input type="checkbox">
+    </form>    	
+  </body>
+</html>
+
+
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <form>
+      <label>Enter text</label>
+      <input type="text"><br>
+      <label>Select the radio button</label>
+      <input type="radio"><br>
+      <label>Check the box</label>
+      <input type="checkbox"><br>
+    </form>    	
+  </body>
+</html>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/61a7c5b2-666e-413f-854f-f1d023dd138e)
+```html
+<p>Notification preferences:</p>
+<form>
+  <input type="checkbox" id="box1"> 
+  <label for="box1">
+  Email</label>
+  <input type="checkbox" id="box2"> 
+  <label for="box2">
+  Push</label>
+</form>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/d7691621-34c6-4094-8e1b-ad4ec33583da)
+```html
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <p>Choose your area of interest:</p>
+    <form>
+      <input type="checkbox" id="c1">
+      <label for="c1">Art</label><br>
+      <input type="checkbox" id="c2">
+      <label for="c2">Sports</label><br>
+      <input type="checkbox" id="c3">
+      <label for="c3">Tech</label>
+    </form>    	
+  </body>
+</html>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/c60604d2-d75b-4fee-982a-7684cdb935b4)
+**Lesson Takeaways**
+Great job! You learned that:
+
+ 
+
+⭐ You can add forms to your web pages with the <form> container tag
+
+⭐ Forms are made of <input> elements
+
+⭐ You can label the different inputs in a form with the <label> container tag
+
