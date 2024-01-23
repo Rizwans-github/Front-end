@@ -134,8 +134,179 @@ Sololearn</a>
 </ol>
 ```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/8c542ec6-81e6-4aa6-962d-21483215c063)
+```html
+## Day 3:
+**Landing Page Project**
+<html>
+    <head>
+        <title> Product Name </title>
+    </head>
+    <body>
+        <h1>New silly Product</h1>
+        <img src="https://blob.sololearn.com/courses/np.png">
+        <p> Introducing our <b>latest product</b>, designed to make <br>your life easier and more efficient
+        <ul>
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+        </ul>
+    </body>
+</html>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/3ae00115-682e-4267-85e8-7c067ae0f074)
+
+Attributes:
+You can control the size of images in your web pages. width is an optional attribute.
+
+ 
+
+Run the code to see what the web browser will display
 
 
+```html
+WIDTH:
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <img src="https://blob.sololearn.com/courses/shore.jpg" width="300">
+    <img src="https://blob.sololearn.com/courses/shore.jpg">    	
+  </body>
+</html>
+
+HEIGHT:
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <img src="https://blob.sololearn.com/courses/shore.jpg" height="150">    	
+  </body>
+</html>
+
+Combined:
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <img src="https://blob.sololearn.com/courses/shore.jpg" 
+    width="200" height="130">    	
+  </body>
+</html>
+```
+**Lesson Takeaways**
+Well done! You learned that:
+
+ 
+
+⭐ You can add attributes to HTML elements to provide additional information
+
+⭐ Some attributes are required for the element to function correctly
+
+⭐ Attributes are always specified in the start tag
+
+**Navigation and Menus**
+The way visitors navigate a website depends on its design. Websites come in 2 shapes:
+
+ 
+
+- Multiple-page websites
+
+- Single-page websites.
+
+ 
+```html
+<html>
+  <head>
+    <title>Homepage Title</title>
+  </head>
+  <body>
+    <nav>
+       <a href="index.html">Home</a>
+       <a href="about.html">About</a>
+       <a href="contact.html">Contact</a>
+    </nav>    	
+  </body>
+</html>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/9e38e582-03ab-4535-afab-4f5ce11e5c34)
+A single-page website has all its content on the home page. Any navigation links take the visitor down to different sections (instead of loading new pages).
+
+It’s best practice to name your homepage index.html so that the web browser can find and load it.
+
+```html
 
 
+The hash character (#) is needed to tell the web browser that we are targeting a section of the same page.
+You might want to add a link at the bottom of a long single-page website to take the user back to the top of the page.
+You can do this with href="#top" or simply href="#".
+<html>
+  <head>
+    <title>Travel with us</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#packages">Packages</a>
+    </nav>
+    <h2>Discover the world with us!</h2>
+    <p>At <b>Around the world </b>, we
+       believe that travel is one of
+       the greatest gifts life has to
+       offer. That's why we're
+       dedicated to making your journeys
+       as seamless and enjoyable as 
+       possible.
+       Whether you're seeking adventure,
+       relaxation, or a combination of
+       both, we've got you covered.
+       With a wide range of destinations
+       and customizable travel packages,
+       you'll be able to create the trip
+       of a lifetime.
+    </p>
+    <p>Our team of experienced travel
+       consultants are passionate about
+       travel and will work with you
+       to design an itinerary that fits
+       your individual needs and budget.
+       So why wait? Book your next adventure
+       with <b>Around the world</b> today 
+       and start creating memories that 
+       will last a lifetime!
+    </p>
+    <h2 id="about">About us</h2>
+    <p>At <b>Around the world</b>, we are
+       a team of passionate travelers
+       dedicated to helping our clients
+       experience the world. With years of
+       experience in the travel industry, 
+       our knowledgeable and experienced 
+       staff will work with you to plan and 
+       book your next journey.
+    </p>
+    <h2 id="packages">Packages</h2>
+    <ul>
+      <li>Adults</li>
+      <li>School groups</li>
+      <li>Students</li>
+      <li>Family</li>
+      <li>Corporate</li>
+      <li>Honeymoon</li>
+    </ul>
+    <a href="#top">Top of the page</a>
+  </body>
+</html>
+```
+Lesson Takeaways
+You’re unstoppable! You learned that:
 
+ 
+
+⭐ Websites come in 2 different types: single- or multi-page
+
+⭐ You can create navigation links as <a> tags within a <nav> tag
+
+⭐ You can link to specific parts of a page by giving them an id attribute
