@@ -1,4 +1,7 @@
 # Learning Html
+I'm fully committed to becoming a proficient data analyst. Balancing a full-time job and ongoing exams, I'll be dedicating focused time to enhance my mathematical skills which will help me improve my analytical abilities. While my main focus is data analysis, I'm also exploring front-end development to keep my coding interest intact.
+I'm delving into web development with HTML, CSS, and JavaScript to add a practical layer to my skills. This dual focus aims to ensure a well-rounded approach to my professional growth.
+
 ## Day 1:
 ```html
 Here I am learning to create para and buttons
