@@ -1,4 +1,4 @@
-# Learning Html
+![b94371c7-82aa-4246-a895-8e2b9f1cade6](https://github.com/Rizwans-github/Front-end/assets/141806496/61acdc99-873f-47fa-a9a0-aa946dd39199)# Learning Html
 I'm fully committed to becoming a proficient data analyst. Balancing a full-time job and ongoing exams, I'll be dedicating focused time to enhance my mathematical skills which will help me improve my analytical abilities. While my main focus is data analysis, I'm also exploring front-end development to keep my coding interest intact.
 I'm delving into web development with HTML, CSS, and JavaScript to add a practical layer to my skills. This dual focus aims to ensure a well-rounded approach to my professional growth.
 
@@ -200,7 +200,7 @@ Combined:
   </body>
 </html>
 ```
-**Lesson Takeaways**
+### **Lesson Takeaways**
 Well done! You learned that:
 
  
@@ -304,7 +304,7 @@ You can do this with href="#top" or simply href="#".
   </body>
 </html>
 ```
-**Lesson Takeaways**
+### **Lesson Takeaways**
 You’re unstoppable! You learned that:
 
  
@@ -379,7 +379,7 @@ FORMS
 </html>
 ```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/c60604d2-d75b-4fee-982a-7684cdb935b4)
-**Lesson Takeaways**
+### **Lesson Takeaways**
 Great job! You learned that:
 
  
@@ -430,7 +430,7 @@ Great job! You learned that:
   <input type="submit">
 </form>
 
-**Lesson Takeaways**
+### **Lesson Takeaways**
 Great job! You learned that:
 
  
@@ -441,7 +441,7 @@ Great job! You learned that:
 
 ⭐ The value attribute is used to tell the database what to store
 
-## Day 3:
+## Day 4:
 ```html
 <html>
   <head>
@@ -509,7 +509,8 @@ Great job! You learned that:
 ```
 
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/3bae984e-cc49-4a07-b4c2-d21332955aa7)
-Lesson Takeaways
+
+### **Lesson Takeaways**
 Good Job! You learned that:
 
  
@@ -519,3 +520,70 @@ Good Job! You learned that:
 ⭐ the <option> tag is used to give choices to the user
 
 ⭐ you can use drop-down menus in forms, in combination with other input elements
+
+```html
+<html>
+    <head>
+        <title> Product Name </title>
+    </head>
+    <body>
+        <h1>New silly Product</h1>
+        <img src="https://blob.sololearn.com/courses/np.png">
+        <p> Introducing our <b>latest product</b>, designed to make <br>your life easier and more efficient
+        <ul>
+            <p>Feature 1</p>
+            <p>Feature 2</p>
+            <p>Feature 3</p>
+        </ul>
+        <h2>Order now!</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type = "text" id= "name"><br>
+            <label for="email">Email:</label>
+            <input type = "text" id= "email"><br>
+            <input type = "submit">
+        </form>       
+    </body>
+</html>
+```
+![b94371c7-82aa-4246-a895-8e2b9f1cade6](https://github.com/Rizwans-github/Front-end/assets/141806496/e7de1b51-4b0e-4f36-b87d-656f0fe1f71f)
+
+```html
+
+<html>
+    <head>
+        <title> Product Name </title>
+    </head>
+    <body>
+        <h1>New silly Product</h1>
+        <img src="https://blob.sololearn.com/courses/np.png">
+        <p> Introducing our <b>latest product</b>, designed to make <br>your life easier and more efficient
+        <ul>
+            <p>Feature 1</p>
+            <p>Feature 2</p>
+            <p>Feature 3</p>
+        </ul>
+        <h2>Order now!</h2>
+        <form>
+            <label for = "size">Size:</label>
+            <select id = "size">
+                <option>Small</option>
+                <option>Big</option>
+                <option>Large</option>
+            </select>
+            <label for= "color">Color:</label>
+            <select id = "color">
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Green</option>
+            </select><br>
+            <label for="name">Name:</label>
+            <input type = "text" id= "name"><br>
+            <label for="email">Email:</label>
+            <input type = "text" id= "email"><br>
+            <input type = "submit">
+        </form>       
+    </body>
+</html>
+```
+![aaccac41-3404-4a3e-ae45-d255af367323](https://github.com/Rizwans-github/Front-end/assets/141806496/42beb9b2-8eab-400c-8483-0baa569636d0)
