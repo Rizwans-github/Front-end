@@ -387,3 +387,129 @@ Great job! You learned that:
 
 ⭐ You can label the different inputs in a form with the <label> container tag
 
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <p>Enter payment option</p>
+    <input type="radio" id="r1" 
+    name="pay" value="cash">
+    <label for="r1">Cash</label>
+    <input type="radio" id="r2" 
+    name="pay" value="card">
+    <label for="r2">Card</label>  
+  </body>
+</html>
+
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/7170c7e4-a1be-49a8-991c-fc5330cf682d)
+
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <form>
+      <label for="t1">Email:</label>
+      <input type="text" id="t1" name="email"
+      value="example@domain.com"> 
+   </form>
+  </body>
+</html>
+
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/e97fc1b6-c905-4c14-a3e9-a042c71e1ed4)
+
+<form>
+  <label for="t1">Email</label>
+  <input type="text" id="t1" name="em">
+  <label for="t2">Country</label>
+  <input type="text" id="t2"name="co">
+  <input type="submit">
+</form>
+
+**Lesson Takeaways**
+Great job! You learned that:
+
+ 
+
+⭐ The submit type of input allows the user to send form data
+
+⭐ The name attribute is used to tell the database where to store the data
+
+⭐ The value attribute is used to tell the database what to store
+
+<html>
+  <head>
+    <title>Drop-down Menu</title>
+  </head>
+  <body>
+    <form>
+      <label for="dropdown">
+      Choose an option:</label>
+      <select id="dropdown">
+        <option value="r">Red</option>
+        <option value="g">Green</option>
+        <option value="b">Blue</option>
+      </select>
+      <input type="submit">
+    </form>
+  </body>
+</html>
+
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/0ef6f3fe-605b-4de5-b6fd-6b125cb8de9e)
+
+<html>
+  <head>
+    <title>Drop-down Menu</title>
+  </head>
+  <body>
+    <form>
+      <label for="s1">
+              Vehicle type:</label>
+      <select name="vehicle" id="s1">
+        <option value="car">
+              Car</option>
+        <option value="bus">
+              Bus</option>
+      </select>
+    </form>
+  </body>
+</html>
+
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/4379e86d-0368-4e87-ac79-703825f98aac)
+
+<html>
+  <head>
+    <title>Drop-down Menu</title>
+  </head>
+  <body>
+    <form>
+      <!-- requires the user
+           to enter a valid email -->
+      <label for="email">
+           Email add:</label>
+      <input type="email" id="email"><br>
+      <!-- hides sensitive information -->
+      <label for="pass">
+          Password :</label>
+      <input type="password" id="pass"><br>
+      <!-- requires the user to 
+          enter a phone number -->
+      <label for="tel">Telephone:</label>
+      <input type="tel" id="tel"><br>
+    </form>
+  </body>
+</html>
+
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/3bae984e-cc49-4a07-b4c2-d21332955aa7)
+
+Lesson Takeaways
+Good Job! You learned that:
+
+ 
+
+⭐ the <select> tag is used to create a drop-down menu
+
+⭐ the <option> tag is used to give choices to the user
+
+⭐ you can use drop-down menus in forms, in combination with other input elements
