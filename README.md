@@ -438,6 +438,8 @@ Great job! You learned that:
 
 ⭐ The value attribute is used to tell the database what to store
 
+## Day 3:
+```html
 <html>
   <head>
     <title>Drop-down Menu</title>
@@ -455,9 +457,10 @@ Great job! You learned that:
     </form>
   </body>
 </html>
-
+```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/0ef6f3fe-605b-4de5-b6fd-6b125cb8de9e)
 
+```html
 <html>
   <head>
     <title>Drop-down Menu</title>
@@ -475,9 +478,9 @@ Great job! You learned that:
     </form>
   </body>
 </html>
-
+```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/4379e86d-0368-4e87-ac79-703825f98aac)
-
+```html
 <html>
   <head>
     <title>Drop-down Menu</title>
@@ -500,9 +503,9 @@ Great job! You learned that:
     </form>
   </body>
 </html>
+```
 
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/3bae984e-cc49-4a07-b4c2-d21332955aa7)
-
 Lesson Takeaways
 Good Job! You learned that:
 
