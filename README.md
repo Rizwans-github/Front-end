@@ -513,12 +513,12 @@ Great job! You learned that:
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/3bae984e-cc49-4a07-b4c2-d21332955aa7)
 
 ## Lesson Takeaways
-<!--
+
 Good Job! You learned that:
 
-⭐ the <select> tag is used to create a drop-down menu
-⭐ the <option> tag is used to give choices to the user
-⭐ you can use drop-down menus in forms, in combination with other input elements -->
+⭐ the \<select\> tag is used to create a drop-down menu 
+⭐ the \<option\> tag is used to give choices to the user
+⭐ you can use drop-down menus in forms, in combination with other input elements 
 
 
 ```html
@@ -614,8 +614,8 @@ Amazing! You learned that:
 
  
 
-⭐ The <video> tag embeds video in web pages
+⭐ The \<video\> tag embeds video in web pages
 
-⭐ The <source> tag lets you add multiple media files
+⭐ The \<source\> tag lets you add multiple media files
 
 ⭐ The controls attribute adds default video controls
