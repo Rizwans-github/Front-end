@@ -610,12 +610,70 @@ Good Job! You learned that:
 </html>
 ```
 ## Lesson Takeaways
-Amazing! You learned that:
 
- 
+⭐ The \<audio\> tag embeds sound into a web page
+⭐ The autoplay, muted and loop attributes control how the multimedia behaves
 
 ⭐ The \<video\> tag embeds video in web pages
-
 ⭐ The \<source\> tag lets you add multiple media files
-
 ⭐ The controls attribute adds default video controls
+
+You learned that \<header\>, \<main\> and \<footer\>...
+⭐ can be used to create a 3-part page layout
+⭐ are container tags
+⭐ are nested inside the body
+
+```html
+<html>
+ <head><title>Healthcare Blog</title></head>
+ <body>
+  <header>
+   <h1>Healthy Recipes Blog</h1>
+  </header>
+  <main>
+   <article>
+    <h2>Vegan Stuffed Bell Peppers</h2>
+    <section>
+     <h3>Ingredients</h3>
+     <ul>
+      <li>1 cup cooked quinoa</li>
+      <li>...</li>
+     </ul>
+    </section>
+    <section>
+     <h3>Instructions</h3>
+     <ol>
+      <li>Preheat oven to 375°F.</li>
+      <li>...</li>
+     </ol>
+    </section>
+    <!-- <aside> within the <article> adds
+    more vegan recipes because the article 
+    is about Vegan Stuffed Bell Peppers.-->
+    <aside>
+     <h3>More Vegan Recipes</h3>
+     <ul>
+      <li>
+       <a href="#">Vegan Lentil Soup</a>
+      </li>
+     </ul>
+    </aside>
+   </article>
+   <!-- <aside> outside the <article> adds
+   more recipes because it is related to 
+   the entire web page content.-->
+   <aside>
+    <h2>Suggested Recipes</h3>
+    <ul>
+     <li><a href="#">Fried Rice</a></li>
+     <li><a href="#">Chicken Rings</a></li>
+    </ul>
+   </aside>
+  </main>
+  <footer>
+   <p>Healthy Recipes Blog &copy; 2023</p>
+  </footer>
+ </body>
+</html>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/51604aa7-b78b-4748-a664-9d18f971a27b)
