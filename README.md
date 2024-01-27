@@ -677,3 +677,59 @@ You learned that \<header\>, \<main\> and \<footer\>...
 </html>
 ```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/51604aa7-b78b-4748-a664-9d18f971a27b)
+
+## Day 6:
+Lesson Takeaways
+Great job! You learned that:
+
+ 
+
+⭐ \<article\> represents a self-contained, independent piece of content
+
+⭐ \<section\> is used to divide content into parts
+
+⭐ \<aside\> is used for secondary, additional or somehow related content
+```html
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <p style = "color:green;font-size:large">Some text</p >    	
+  </body>
+</html>
+```
+```html
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <button style="background-color:yellow;font-size:large">Click me</button>    	
+  </body>
+</html>
+```
+```html
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h2 style="border:dotted">dotted</h2>
+    <h2 style="border:dashed">dashed</h2>
+    <h2 style="border:solid">solid</h2>
+    <h2 style="border:double">double</h2>
+    <h2 style="border:inset">inset</h2>
+    <h2 style="border:outset">outset</h2>    	
+  </body>
+</html>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/5d1f81b5-8b9b-49fb-a100-b585d676bae1)
+Lesson Takeaways
+Great work! You learned to use the style attribute to customize your web pages’...
+
+⭐ colors
+⭐ font sizes
+⭐ alignments
+⭐ borders
+⭐ and more!
