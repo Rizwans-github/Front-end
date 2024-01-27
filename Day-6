@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <p style = "color:green;font-size:large">Some text</p >    	
+  </body>
+</html>
+
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <button style="background-color:yellow;font-size:large">Click me</button>    	
+  </body>
+</html>
+
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h2 style="border:dotted">dotted</h2>
+    <h2 style="border:dashed">dashed</h2>
+    <h2 style="border:solid">solid</h2>
+    <h2 style="border:double">double</h2>
+    <h2 style="border:inset">inset</h2>
+    <h2 style="border:outset">outset</h2>    	
+  </body>
+</html>
