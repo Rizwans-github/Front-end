@@ -733,3 +733,64 @@ Great work! You learned to use the style attribute to customize your web pages�
 ⭐ alignments
 ⭐ borders
 ⭐ and more!
+
+## Day 7:
+```html
+<html>
+
+	
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h2>Block-Level Elements</h2>
+    <!--Start on a new line--> 
+    <h3 style="border:solid">Heading</h3>
+    <p style="border:solid">Paragraph</p>
+    <ul style="border:solid">
+      <li>List item A</li>
+      <li>List item B</li>
+    </ul>
+    <input type = "file" accept=".pdf,.jpg" style="color:#ebf6fc;background-color:#2493df ;border:3px inset ">Select</input>
+    <h2>Inline Elements</h2>
+    <!--Don't start on a new line--> 
+    <p><b style="border:solid">
+    Bold</b> text</p>
+    <button style="border:solid">
+    Click me</button>
+    <label style="border:solid">
+    Label</label>    	
+  </body>
+</html>
+```
+Learnt to add files through reels XD and customisation also but took help of CHatGPT
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/01f13e2d-59e9-4126-9e2b-b9a20b21e87b)
+
+```html
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h2>Block-Level Elements</h2>
+    <!--Start on a new line--> 
+    <h3 style="border:solid">Heading</h3>
+    <p style="border:solid">Paragraph</p>
+    <ul style="border:solid">
+      <li>List item A</li>
+      <li>List item B</li>
+    </ul>
+
+    <h2>Inline Elements</h2>
+    <!--Don't start on a new line--> 
+    <p><b style="border:solid">
+    Bold</b> text</p>
+    <button style="border:solid">
+    Click me</button>
+    <label style="border:solid">
+    Label</label>    	
+  </body>
+</html>
+```
+
+
