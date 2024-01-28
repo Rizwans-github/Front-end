@@ -792,5 +792,17 @@ Learnt to add files through reels XD and customisation also but took help of CHa
   </body>
 </html>
 ```
+Lesson Takeaways
+Amazing! You learned that:
+
+ 
+
+⭐ There are two types of HTML element: inline and block
+
+⭐ Block-level elements always start on (and end with) a new line
+
+⭐ Inline elements don’t start on a new line
+
+Next lesson you’ll learn to group eleme
 
 
