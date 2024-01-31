@@ -805,4 +805,24 @@ Amazing! You learned that:
 
 Next lesson you’ll learn to group eleme
 
+## Day 8:
+<!DOCTYPE html>
+<html>
+<head>
+    <title> This is my code </title>
+</head>
+<body>
+    <header>
+        <h1> This is the Topic </h1>
+    </header>
+    <nav>
+        <a href = "#home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Contact">Contact</a>
+    </nav>
+    <button style="color:darkblue;background-color:lightblue;border:2px purple outlet">Click me</button>
+    <p> This is a paragraph </p>
+</body>
+</html>
+
 
