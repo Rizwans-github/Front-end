@@ -806,6 +806,7 @@ Amazing! You learned that:
 Next lesson you’ll learn to group eleme
 
 ## Day 8:
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -824,5 +825,58 @@ Next lesson you’ll learn to group eleme
     <p> This is a paragraph </p>
 </body>
 </html>
+```
 
+## Day 9:
+```html
+<html>
+ <head>
+  <title>Group Styling</title>
+ </head>
+ <body>
+  <div style="text-align:center">
+   <h2>About Me</h2>
+   <p>Hi, I'm Eloise</p>
+   <img src="https://blob.sololearn.com/courses/pcImage.jpg">
+  </div>
+ </body>
+</html>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/90ee65b8-1066-4ae6-bc16-2affdab00a13)
+```html
+<html>
+ <head>
+  <title>Page Title</title>
+ </head>
+ <body>
+  <div style="color:blue;text-align:center">
+   <h2>About Me</h2>
+   <p>Hi, I'm Sam. I love web development! 
+   I've been learning HTML, CSS, and JS.</p>
+  </div>
+</body>
+</html>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/10e4d22e-c752-4849-986b-3be48785661d)
+```html
+<html>
+ <head>
+   <title>Page Title</title>
+ </head>
+ <body>
+  <div style="color:red">
+   <h2>Heading 2</h2>
+   <h3 style="color:green">Heading 3</h3>
+   <p>Paragraph</p>
+  </div>
+ </body>
+</html>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/468843c0-a7eb-4eff-b77f-141a86d9b385)
 
+Lesson Takeaways
+⭐ \<div\> is a container that groups elements
+
+⭐ \<div\> is a block-level element
+
+⭐ \<div\> is used to apply the same style to grouped elements
