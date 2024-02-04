@@ -1,5 +1,6 @@
-![b94371c7-82aa-4246-a895-8e2b9f1cade6](https://github.com/Rizwans-github/Front-end/assets/141806496/61acdc99-873f-47fa-a9a0-aa946dd39199)# Learning Html
-I'm fully committed to becoming a proficient data analyst. Balancing a full-time job and ongoing exams, I'll be dedicating focused time to enhance my mathematical skills which will help me improve my analytical abilities. While my main focus is data analysis, I'm also exploring front-end development to keep my coding interest intact.
+# Learning Html
+I'm fully committed to becoming a proficient data analyst. Balancing a full-time job and ongoing exams, I'll be dedicating focused time to enhance my mathematical skills which will help me improve my analytical abilities.  
+While my main focus is data analysis, I'm also exploring front-end development to keep my coding interest intact.  
 I'm delving into web development with HTML, CSS, and JavaScript to add a practical layer to my skills. This dual focus aims to ensure a well-rounded approach to my professional growth.
 
 ## Day 1:
@@ -157,14 +158,13 @@ Sololearn</a>
     </body>
 </html>
 ```
-![image](https://github.com/Rizwans-github/Front-end/assets/141806496/3ae00115-682e-4267-85e8-7c067ae0f074)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/3ae00115-682e-4267-85e8-7c067ae0f074)  
 
-Attributes:
-You can control the size of images in your web pages. width is an optional attribute.
 
- 
+Attributes:  
+You can control the size of images in your web pages. width is an optional attribute.  
 
-Run the code to see what the web browser will display
+Run the code to see what the web browser will display  
 
 
 ```html
