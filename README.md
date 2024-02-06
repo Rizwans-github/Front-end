@@ -389,7 +389,7 @@ Great job! You learned that:
 ⭐ Forms are made of <input> elements
 
 ⭐ You can label the different inputs in a form with the <label> container tag
-
+```html
 <html>
   <head>
     <title>Page Title</title>
@@ -404,9 +404,9 @@ Great job! You learned that:
     <label for="r2">Card</label>  
   </body>
 </html>
-
+```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/7170c7e4-a1be-49a8-991c-fc5330cf682d)
-
+```html
 <html>
   <head>
     <title>Page Title</title>
@@ -419,9 +419,10 @@ Great job! You learned that:
    </form>
   </body>
 </html>
+```html
 
-![image](https://github.com/Rizwans-github/Front-end/assets/141806496/e97fc1b6-c905-4c14-a3e9-a042c71e1ed4)
-
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/e97fc1b6-c905-4c14-a3e9-a042c71e1ed4)  
+```html
 <form>
   <label for="t1">Email</label>
   <input type="text" id="t1" name="em">
@@ -429,17 +430,19 @@ Great job! You learned that:
   <input type="text" id="t2"name="co">
   <input type="submit">
 </form>
-
+```
 ### **Lesson Takeaways**
 Great job! You learned that:
 
  
 
-⭐ The submit type of input allows the user to send form data
+⭐ The submit type of input allows the user to send form data  
 
-⭐ The name attribute is used to tell the database where to store the data
+⭐ The name attribute is used to tell the database where to store the data  
 
-⭐ The value attribute is used to tell the database what to store
+
+⭐ The value attribute is used to tell the database what to store  
+
 
 
 ## Day 4:
@@ -512,13 +515,13 @@ Great job! You learned that:
 
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/3bae984e-cc49-4a07-b4c2-d21332955aa7)
 
-## Lesson Takeaways
+## Lesson Takeaways  
 
-Good Job! You learned that:
+Good Job! You learned that:  
 
-⭐ the \<select\> tag is used to create a drop-down menu 
-⭐ the \<option\> tag is used to give choices to the user
-⭐ you can use drop-down menus in forms, in combination with other input elements 
+⭐ the \<select\> tag is used to create a drop-down menu   
+⭐ the \<option\> tag is used to give choices to the user  
+⭐ you can use drop-down menus in forms, in combination with other input elements   
 
 
 ```html
@@ -609,19 +612,19 @@ Good Job! You learned that:
   </body>
 </html>
 ```
-## Lesson Takeaways
+## Lesson Takeaways  
 
-⭐ The \<audio\> tag embeds sound into a web page
-⭐ The autoplay, muted and loop attributes control how the multimedia behaves
+⭐ The \<audio\> tag embeds sound into a web page  
+⭐ The autoplay, muted and loop attributes control how the multimedia behaves  
 
-⭐ The \<video\> tag embeds video in web pages
-⭐ The \<source\> tag lets you add multiple media files
-⭐ The controls attribute adds default video controls
+⭐ The \<video\> tag embeds video in web pages  
+⭐ The \<source\> tag lets you add multiple media files  
+⭐ The controls attribute adds default video controls  
 
-You learned that \<header\>, \<main\> and \<footer\>...
-⭐ can be used to create a 3-part page layout
-⭐ are container tags
-⭐ are nested inside the body
+You learned that \<header\>, \<main\> and \<footer\>...  
+⭐ can be used to create a 3-part page layout  
+⭐ are container tags  
+⭐ are nested inside the body  
 
 ```html
 <html>
@@ -679,16 +682,16 @@ You learned that \<header\>, \<main\> and \<footer\>...
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/51604aa7-b78b-4748-a664-9d18f971a27b)
 
 ## Day 6:
-Lesson Takeaways
-Great job! You learned that:
+**Lesson Takeaways**  
+Great job! You learned that:  
 
  
 
-⭐ \<article\> represents a self-contained, independent piece of content
+⭐ \<article\> represents a self-contained, independent piece of content  
 
-⭐ \<section\> is used to divide content into parts
+⭐ \<section\> is used to divide content into parts  
 
-⭐ \<aside\> is used for secondary, additional or somehow related content
+⭐ \<aside\> is used for secondary, additional or somehow related content  
 ```html
 <html>
   <head>
@@ -725,14 +728,14 @@ Great job! You learned that:
 </html>
 ```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/5d1f81b5-8b9b-49fb-a100-b585d676bae1)
-Lesson Takeaways
+**Lesson Takeaways**  
 Great work! You learned to use the style attribute to customize your web pages’...
 
-⭐ colors
-⭐ font sizes
-⭐ alignments
-⭐ borders
-⭐ and more!
+⭐ colors  
+⭐ font sizes  
+⭐ alignments  
+⭐ borders  
+⭐ and more!  
 
 ## Day 7:
 ```html
@@ -763,7 +766,7 @@ Great work! You learned to use the style attribute to customize your web pages�
   </body>
 </html>
 ```
-Learnt to add files through reels XD and customisation also but took help of CHatGPT
+Learnt to add files through reels XD and customisation also but took help of CHatGPT  
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/01f13e2d-59e9-4126-9e2b-b9a20b21e87b)
 
 ```html
@@ -792,16 +795,16 @@ Learnt to add files through reels XD and customisation also but took help of CHa
   </body>
 </html>
 ```
-Lesson Takeaways
-Amazing! You learned that:
+**Lesson Takeaways**
+Amazing! You learned that:  
 
  
 
-⭐ There are two types of HTML element: inline and block
+⭐ There are two types of HTML element: inline and block  
 
-⭐ Block-level elements always start on (and end with) a new line
+⭐ Block-level elements always start on (and end with) a new line  
 
-⭐ Inline elements don’t start on a new line
+⭐ Inline elements don’t start on a new line  
 
 Next lesson you’ll learn to group eleme
 
@@ -874,9 +877,146 @@ Next lesson you’ll learn to group eleme
 ```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/468843c0-a7eb-4eff-b77f-141a86d9b385)
 
+**Lesson Takeaways**  
+⭐ \<div\> is a container that groups elements  
+
+⭐ \<div\> is a block-level element  
+
+⭐ \<div\> is used to apply the same style to grouped elements 
+
+## Day 10
+```html
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <table>
+      <tr> 
+        <td>C1</td>
+        <td>C2</td>
+      </tr>
+      <tr> 
+        <td>C3</td>
+        <td>C4</td>
+      </tr>
+    </table>    	
+  </body>
+</html>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/049d658a-3698-4a24-bebf-1585a464d6f9)
+
+```html
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <table style="border:solid">
+      <tr> 
+        <td style="border:dashed">C1</td>
+        <td>C2</td>
+      </tr>
+      <tr> 
+        <td style="border:solid">C3</td>
+        <td style="border:solid">C4</td>
+      </tr>
+    </table>    	
+  </body>
+</html>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/8c5afef9-394c-4774-bc0c-54f190f432fa)
+```html
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Name</th><th>Age</th>
+      </tr>
+      <tr>
+        <td>Amy</td><td>38</td>
+      </tr>
+      <tr>
+        <td>Alex</td><td>29</td>
+      </tr>
+    </table>    	
+  </body>
+</html>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/97167278-23df-453b-892a-707712e2e7fe)
+```html
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <table style="border:solid">
+      <tr>
+        <th style="border:solid">Month</th>
+        <th style="border:solid">
+		Budget($)</th>
+      </tr>
+      <tr>
+        <td style="border:solid">
+		January</td>
+        <td style="border:solid">
+		500</td>
+      </tr>
+      <tr>
+        <td style="border:solid">
+		February</td>
+        <td style="border:solid">400</td>
+      </tr>
+      <tr>
+        <td style="border:solid"
+        colspan="2">Sum: 900</td>
+      </tr>
+    </table>    	
+  </body>
+</html>
+
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <table style="border:solid">
+      <tr>
+        <th style="border:solid">Month</th>
+        <th style="border:solid">
+		Budget($)</th>
+      </tr>
+      <tr>
+        <td style="border:solid">
+		January</td>
+        <td style="border:solid" rowspan="2">
+		500</td>
+      </tr>
+      <tr>
+        <td style="border:solid">
+		February</td>
+        <td style="border:solid">400</td>
+      </tr>
+      <tr>
+        <td style="border:solid"
+        colspan="2">Sum: 900</td>
+      </tr>
+    </table>    	
+  </body>
+</html>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/0a03c2ce-3ad4-462f-9bb3-afc327c5575d)
+
 Lesson Takeaways
-⭐ \<div\> is a container that groups elements
+Congrats! You learned that:  
 
-⭐ \<div\> is a block-level element
+⭐ You can add tables to web pages with the \<table\> container tag  
 
-⭐ \<div\> is used to apply the same style to grouped elements
+⭐ The \<tr\> container tag is used to add rows  
+
+⭐ The \<td\> container tag is used to add data   
+
+⭐ The \<th\> container tag is used to add headers  
