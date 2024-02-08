@@ -1021,6 +1021,8 @@ Congrats! You learned that:
 
 ⭐ The \<th\> container tag is used to add headers  
 
+## Day 11:
+
 ```html
 <html>
   <head>
@@ -1101,6 +1103,8 @@ Fantastic! You learned that:
 ⭐ The alert() function generates a message with an OK button  
 
 Keep learning, keep growing!
+
+
 ```html
 <html>
     <head>
@@ -1242,5 +1246,64 @@ Keep learning, keep growing!
 
 ```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/cfe40689-2170-45f4-a12d-6e09ac185092)
+
+## Lesson Takeaways
+Great job! Here's the recap:  
+
+⭐ CSS is used to style web pages  
+
+⭐ CSS is one of the three core web technologies  
+
+⭐ The style attribute adds CSS to HTML tags  
+```
+<style>
+  p {
+    color: orchid;
+  }
+</style>
+
+<body>
+  <p>Explore the city.</p>
+  <p>Discover hidden gems.</p>
+  <p>Take a free tour.</p>
+</body>
+```
+
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/b52f292d-d6ef-4c5f-bc13-07e0dbe16bf0)
+```
+<head>
+  <style>
+    h1 {
+      color: orchid;
+      background-color: #A3D4FD;
+    }
+    p{
+      color: orchid;
+    }
+    button {
+      font-size: large;
+      color: lightyellow;
+      background-color: orchid;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Explore the city.</h1>
+  <p>Discover hidden gems.</p>
+  <button>Take a free tour</button>
+</body>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/85c9bd59-4f5e-4f46-9aa6-cb22e3aff7f4)
+Lesson Takeaways
+Great work! You learned that:  
+
+ 
+
+⭐ CSS code is made of styling rules  
+
+⭐ A rule is made of a selector and a set of declarations  
+
+⭐ A declaration consists of a property:value pair  
 
 
