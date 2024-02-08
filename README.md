@@ -1020,3 +1020,85 @@ Congrats! You learned that:
 ⭐ The \<td\> container tag is used to add data   
 
 ⭐ The \<th\> container tag is used to add headers  
+
+```html
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <button 
+    onclick="alert('Welcome to JS')">
+    Click me</button>    	
+  </body>
+</html>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/064245cb-c918-40b1-b262-19df10de3d4c)
+
+```html
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <img id="robot" 
+    src="https://blob.sololearn.com/courses/robot-c.jpg"><br>
+    <button onclick="robot.src='http://www.sololearn.com/images/tree.jpg'">
+    Show tree</button>    	
+  </body>
+</html>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/9a9556ea-c667-44bb-80ca-b4c954794b7a)
+
+
+```html
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <img id="robot" 
+    src="https://blob.sololearn.com/courses/robot-c.jpg"><br>
+    <button 
+    onclick="robot.src='https://blob.sololearn.com/courses/robot-l.jpg'">
+    Left</button>
+    <button 
+    onclick="robot.src='https://blob.sololearn.com/courses/robot-r.jpg'">
+    Right</button>   	
+  </body>
+</html>
+```
+```html
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <img id="robot" 
+    src="https://blob.sololearn.com/courses/robot-c.jpg"><br>
+    <button 
+    onclick="robot.src='https://blob.sololearn.com/courses/robot-l.jpg'">
+    Left</button>
+    <button 
+    onclick="robot.src='https://blob.sololearn.com/courses/robot-r.jpg'">
+    Right</button>   	
+  </body>
+</html>
+```
+
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/0dd39cf3-4f66-4fd5-8c7c-48cd84e19c4c)
+
+HTML was the perfect choice! Now you know it, there’s so much you can build! And now you’ll pick up the other programming languages much quicker too.
+
+## Lesson Takeaways
+
+Fantastic! You learned that:  
+
+⭐ JavaScript makes your web pages interactive  
+
+⭐ The onclick attribute triggers actions when a user clicks on an element  
+
+⭐ The alert() function generates a message with an OK button  
+
+Keep learning, keep growing!
+
