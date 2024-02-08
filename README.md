@@ -1101,4 +1101,146 @@ Fantastic! You learned that:
 ⭐ The alert() function generates a message with an OK button  
 
 Keep learning, keep growing!
+```html
+<html>
+    <head>
+        <title> Product Name </title>
+    </head>
+    <body>
+        <header>
+            <h1>New silly Product</h1>
+        </header>
+        <main>
+                
+            <img src="https://blob.sololearn.com/courses/np.png">
+            <p> Introducing our <b>latest product</b>, designed to make <br>your life easier and more efficient
+            <ul>
+                <p>Feature 1</p>
+                <p>Feature 2</p>
+                <p>Feature 3</p>
+            </ul>
+            <h2>Order now!</h2>
+            <form>
+                <label for = "size">Size:</label>
+                <select id = "size">
+                    <option>Small</option>
+                    <option>Big</option>
+                    <option>Large</option>
+                </select>
+                <label for= "color">Color:</label>
+                <select id = "color">
+                    <option>Red</option>
+                    <option>Blue</option>
+                    <option>Green</option>
+                </select><br>
+                <label for="name">Name:</label>
+                <input type = "text" id= "name"><br>
+                <label for="email">Email:</label>
+                <input type = "text" id= "email"><br>
+                <input type = "submit">
+            </form>
+        </main>
+        <footer>
+            <p> Made with <3</p>
+        </footer>
+    </body>
+</html>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/ecade472-df64-477e-9cea-a9bf2e0d0387)
+
+```html
+<html>
+    <head>
+        <title> Product Name </title>
+    </head>
+    <body>
+        <header>
+            <h1 style="background-color:#ffca3a" >New Awesome Product</h1>
+        </header>
+        <main>
+                
+            <img src="https://blob.sololearn.com/courses/np.png">
+            <p> Introducing our <b>latest product</b>, designed to make <br>your life easier and more efficient
+            <ul>
+                <p>Feature 1</p>
+                <p>Feature 2</p>
+                <p>Feature 3</p>
+            </ul>
+            <h2>Order now!</h2>
+            <form>
+                <label for = "size">Size:</label>
+                <select id = "size">
+                    <option>Small</option>
+                    <option>Big</option>
+                    <option>Large</option>
+                </select>
+                <label for= "color">Color:</label>
+                <select id = "color">
+                    <option>Red</option>
+                    <option>Blue</option>
+                    <option>Green</option>
+                </select><br>
+                <label for="name">Name:</label>
+                <input type = "text" id= "name"><br>
+                <label for="email">Email:</label>
+                <input type = "text" id= "email"><br>
+                <input type = "submit">
+            </form>
+        </main>
+        <footer>
+            <p style="background-color:#ffca3a"> Made with <3</p>
+        </footer>
+    </body>
+</html>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/6c3b3af2-8d19-483b-8e90-181e8a23f57f)
+
+```html
+<html>
+    <head>
+        <title> Product Name </title>
+    </head>
+    <body>
+        <header>
+            <h1 style="background-color:#ffca3a" >New Awesome Product</h1>
+        </header>
+        <main>
+                
+            <img src="https://blob.sololearn.com/courses/np.png">
+            <p> Introducing our <b>latest product</b>, designed to make <br>your life easier and more efficient
+            <ul>
+                <p>Feature 1</p>
+                <p>Feature 2</p>
+                <p>Feature 3</p>
+            </ul>
+            <h2>Order now!</h2>
+            <form>
+                <label for = "size">Size:</label>
+                <select id = "size">
+                    <option>Small</option>
+                    <option>Big</option>
+                    <option>Large</option>
+                </select>
+                <label for= "color">Color:</label>
+                <select id = "color">
+                    <option>Red</option>
+                    <option>Blue</option>
+                    <option>Green</option>
+                </select><br><br>
+                <label for="name">Name:</label>
+                <input type = "text" id= "name"><br><br>
+                <label for="email">Email:</label>
+                <input type = "text" id= "email"><br><br>
+                <input type = "submit" style= "background-color:#0175FF;color:white;border:none;border-radius:5px">
+            </form>
+        </main>
+        <footer>
+            <p style="background-color:#ffca3a"> Made with <3</p>
+        </footer>
+    </body>
+</html>
+
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/cfe40689-2170-45f4-a12d-6e09ac185092)
+
 
