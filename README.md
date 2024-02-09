@@ -1295,7 +1295,7 @@ Great job! Here's the recap:
 </body>
 ```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/85c9bd59-4f5e-4f46-9aa6-cb22e3aff7f4)
-Lesson Takeaways
+### Lesson Takeaways
 Great work! You learned that:  
 
  
@@ -1306,4 +1306,268 @@ Great work! You learned that:
 
 ⭐ A declaration consists of a property:value pair  
 
+## Day 12:
+```html
+<head>
+  <style>
+    p{
+      background-color: plum;
+      color: darkblue;
+    }
+  </style>
+</head>
+
+<body>
+  <p>Buy a ticket to <b>Portugal</b></p>
+</body>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/315f745c-0def-4978-92a2-e5cb47e36ffa)
+
+```html
+
+<head>
+  <style>
+    p {
+      color: lightgray;
+      background-color: black;  
+    }
+
+    em {
+      color: plum;
+      background-color: darkslategrey;
+    }
+  </style>
+</head>
+
+<body>
+  <p><em>Programming</em> is a valuable skill
+  in today's digital age. Learning to
+  code is a journey that can
+  open up many opportunities.</p>
+</body>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/082b5d49-5980-4201-ba25-7e4f78e5a77f)
+```html
+<head>
+  <style>
+    h1 u {
+      color: seagreen;
+    }
+  </style>
+</head>
+<body>
+  <h1>Back to <u>school!</u></h1>
+  <p>Our back to <u>school</u> sale from July 15th.</p>
+</body>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/365b5c06-1d1d-4d44-beb1-a11924c083dc)
+
+### Lesson Takeaways  
+Well done! You’ve learned that:  
+ 
+
+⭐ By default, a child element will inherit style from its parent  
+
+⭐ You can override style inheritance by creating a different rule for the child element  
+
+⭐ The descendant selector targets a child nested inside a specific parent  
+
+In this lesson, you’ll learn to use IDs to target specific individual elements, and classes to target groups of elements.
+
+```html
+<head>
+  <style>
+    #heading {
+      background-color: DodgerBlue;
+      color: white;
+      text-align: center;
+    }
+    #movie {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="heading">Movie Stream</h1>
+  <h2 id="movie">Matrix</h2>
+  <p>Genre: Action, Sci-fi</p>
+</body>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/358e96f4-2485-4071-b14e-caf0907278b8)
+
+```html
+
+<head>
+  <style>
+    .movie {
+      color: white;
+      background-color: navy;
+    }
+  </style>
+</head>
+
+<body>
+  <p class="movie">Avatar</p>
+  <button class="movie">Watch now</button>
+</body>
+
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/cc78c4ca-5f25-4f91-afaf-695c6e594141)
+
+```html
+<head>
+<style>
+  .intro {
+    color: darkblue;
+    font-size: 28px;
+    text-align: center;
+  }
+  .content {
+    color: seagreen;
+    font-size: 18px;
+  }
+</style>
+</head>
+<body>
+  <h1 class="intro">Welcome to
+  FitLife Blog</h1>
+  <p class="content">Get inspired to lead a
+  healthy and active lifestyle.</p>
+  <p class="content">Explore workout routines
+  and nutritious recipes.</p>
+  <button class="content">Signup</button>
+</body>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/f7cb29cf-fdf6-4e09-abc9-6b6e037d0018)
+
+## Lesson Takeaways  
+Great job! You’ve learned that:  
+
+⭐ The ID selector uses the hash # symbol and targets a specific element  
+
+⭐ A class gives a common identifier to a group of elements  
+
+⭐ The class selector uses a dot . and targets a group of elements with the same class  
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/ce017b3b-9dae-473a-92ff-b45337991bd5)
+```html
+<head>
+  <style>
+    p {
+      color: red;
+    }
+    #p1 {
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <p id = "p1">Text</p>
+</body>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/a563cb73-89a5-441c-9798-f74de867226b)  
+You can add notes or explanations to your CSS code. Comments help other humans (and future you!) to read your code.   
+Comments in CSS start with /* and end with */  
+```html
+<head>
+  <style>
+    /*style rule for the menu class*/
+    .menu {
+      font-size: medium;
+      background-color: lightblue;
+    }
+  </style>
+</head>
+
+<body>
+  <button class="menu">Save for later</button>
+  <button class="menu">Add to cart</button>
+</body>
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/4274b546-a094-4514-89e4-1c22ff319c8e)  
+An alternative to inline and internal CSS is external CSS. External CSS code is written outside the HTML document, in a separate file.  
+
+```html
+<body>
+  <h1>A Web Developer</h1>
+  <p>I am a web developer and I love to create websites.</p>
+  <button>Learn More</button>
+
+  <p class="heading">Network</p>
+  <p class="description">I have a lot of networking skills,
+  and I am very proficient in them. I excel in networking
+  and am constantly seeking opportunities to further
+  develop my network-related skills.</p>
+
+</body>
+```
+```css
+.heading {
+  font-size: large;
+  color: blueviolet;
+}
+
+.description {
+  font-size: medium;
+  color: firebrick;
+}
+
+button {
+    background-color: burlywood;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/0cdf354d-6da1-4364-96d3-773b5ce61b27)  
+### Lesson Takeaways  
+Well done! You learned that:  
+⭐ Specificity tells the browser which rule to apply  
+
+⭐ Comments in CSS start with /* and end with */  
+
+⭐ External CSS means a separate file for the styling rules  
+
+```html
+<html>
+<head>
+  <title>John Doe's Profile</title>
+</head>
+<body>
+  <ul id="profile">
+    <img src="https://blob.sololearn.com/courses/ava.png">
+    <h2>John Doe</h2>
+    <p>🇺🇸USA</p>
+    <li>25 Followers</li>
+    <li>20 Following</li>
+    <li>⭐️1581 XP</li>
+  </ul>
+  <div id="streak">Streak
+    <ul>
+      <li class="active-day">M</li>
+      <li class="active-day">T</li>
+      <li class="active-day">W</li>
+      <li class="inactive-day">T</li>
+      <li class="inactive-day">F</li>
+      <li class="inactive-day">S</li>
+      <li class="inactive-day">S</li>
+    </ul>
+    <p>Current Streak: 3</p>
+    <p>Longest Streak: 16</p>
+  </div>
+</body>
+</html>
+```
+```css
+body{
+    background-color: darkslategrey;
+    color: white;
+}
+h2{
+    text-align: center;
+
+}
+img{
+    margin: 0 auto; 
+    display: block; 
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/2b57fff4-ba4c-4bfa-ab53-fc29a843190a)
 
