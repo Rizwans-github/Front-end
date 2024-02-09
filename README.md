@@ -884,7 +884,7 @@ Next lesson you’ll learn to group eleme
 
 ⭐ \<div\> is used to apply the same style to grouped elements 
 
-## Day 10
+## Day 10:
 ```html
 <html>
   <head>
@@ -1571,3 +1571,334 @@ img{
 ```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/2b57fff4-ba4c-4bfa-ab53-fc29a843190a)
 
+## Day 13:
+```html
+<body>
+  <button>Next page</button>	
+</body>
+```
+```css
+button {
+  font-size: large;
+  color: #FFFFFF; /*rgb(255,255,255)*/
+  background-color: #FF9595; /*rgb(255, 149, 149)*/
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/6cc44ec1-1757-405a-8449-d1d2c96a2140)  
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/446316fc-93a6-4890-80a8-2bb3fc5f2af7)  
+### Lesson Takeaways
+Awesome! You learned that:  
+⭐ RGB is a color model for accessing a wide spectrum of colors  
+⭐ RGB uses 3 values representing the intensity of red, green and blue  
+⭐ HEX codes make the representation of colors shorter  
+```
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <img id ="img1" 
+    src="https://blob.sololearn.com/courses/shore.jpg">
+    <br> <br>
+    <img id ="img2" 
+    src="https://blob.sololearn.com/courses/shore.jpg">
+  </body>
+</html>
+```
+```css
+#img1 {
+  width: 150px;
+}
+
+#img2 {
+  width: 250px;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/a1f1b716-ea61-4f5f-9b2b-78f31d7bf26e)  
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/0f0da57c-8e68-45e8-91bb-a91ae0d4d3d8)  
+
+```html
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <img
+    src="https://blob.sololearn.com/courses/shore.jpg">
+    <br> <br>
+  </body>
+</html>
+```
+```css
+img {
+  width: 50%;
+}
+```
+```html
+<body>
+  <div class="parent">
+    Parent Text (20px)
+      <div class="child">
+        Child Text (50% of Parent = 10px)</div>
+  </div>
+</body>
+```
+```css
+.parent {
+    font-size: 20px;
+    background-color: #98FB98;
+}
+
+.child {
+    font-size: 50%;
+    background-color: #FFD700;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/a06f3b28-82bf-4460-b5c5-b185cd9207e6)
+## Lesson Takeaways
+Amazing! You learned that:  
+⭐ size in CSS can be measured and set in pixels (px), and percentages (%)  
+⭐ percentages % allow for more responsive designs, adjusting based on the dimensions of parent elements  
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+``````html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
+```html
+```
+```css
+```
