@@ -1,0 +1,27 @@
+.heading {
+  font-size: large;
+  color: blueviolet;
+}
+
+.description {
+  font-size: medium;
+  color: firebrick;
+}
+
+button {
+    background-color: burlywood;
+}
+
+body{
+    background-color: darkslategrey;
+    color: white;
+}
+h2{
+    text-align: center;
+
+}
+img{
+    margin: 0 auto; 
+    display: block; 
+}
+
