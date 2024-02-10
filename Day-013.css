@@ -1,0 +1,113 @@
+button {
+  font-size: large;
+  color: #FFFFFF; /*rgb(255,255,255)*/
+  background-color: #FF9595; /*rgb(255, 149, 149)*/
+}
+
+
+#img1 {
+  width: 150px;
+}
+
+#img2 {
+  width: 250px;
+}
+
+img {
+  width: 50%;
+}
+
+.parent {
+    font-size: 20px;
+    background-color: #98FB98;
+}
+
+.child {
+    font-size: 50%;
+    background-color: #FFD700;
+}
+
+body {
+  background-color: #333333;
+}
+
+h1 {
+  text-decoration: underline;
+  color: #F28D35;
+}
+
+h2 {
+  text-decoration: overline;
+  color: #6BBE92;
+}
+
+h3 {
+  text-decoration: line-through;
+  color: #D83367;
+}
+
+h4 {
+  text-decoration: underline overline;
+  color: #149EF2;
+}
+
+body {
+  background-color: #F3F4F6;
+  color: #333333;
+}
+
+h1 {
+  text-align: center;
+  color: #555555;
+}
+
+.article-title {
+  text-decoration: underline #FF4500;
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.double {
+  text-decoration: double underline #E67112;
+}
+
+.dotted {
+  text-decoration: underline dotted #2A9D8F;
+}
+
+.dashed {
+  text-decoration: dashed underline #E76F51;
+}
+
+.wavy {
+  text-decoration: wavy underline #62767E;
+}
+
+.capitalize { 
+  text-transform: capitalize; 
+}
+.uppercase { 
+  text-transform: uppercase; 
+}
+.lowercase { 
+  text-transform: lowercase; 
+}
+
+body{
+  background-color: #000A23;
+  color: white;
+}
+
+body {
+  background-color: #6b6262;
+}
+
+h1 {
+  color: #FFFFFF; /* white colored text */
+  text-shadow: 4px 4px 4px #111153; 
+  font-size: 4rem;
+}
+
