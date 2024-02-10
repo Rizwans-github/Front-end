@@ -1,4 +1,4 @@
-# Learning Html
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/f90ac46d-7b13-4f72-8395-7aa97b44b02f)# Learning Html
 I'm fully committed to becoming a proficient data analyst. Balancing a full-time job and ongoing exams, I'll be dedicating focused time to enhance my mathematical skills which will help me improve my analytical abilities.  
 While my main focus is data analysis, I'm also exploring front-end development to keep my coding interest intact.  
 I'm delving into web development with HTML, CSS, and JavaScript to add a practical layer to my skills. This dual focus aims to ensure a well-rounded approach to my professional growth.
@@ -200,7 +200,7 @@ Combined:
   </body>
 </html>
 ```
-### **Lesson Takeaways**
+### Lesson Takeaways
 Well done! You learned that:
 
  
@@ -304,7 +304,7 @@ You can do this with href="#top" or simply href="#".
   </body>
 </html>
 ```
-### **Lesson Takeaways**
+### Lesson Takeaways
 You’re unstoppable! You learned that:
 
  
@@ -379,7 +379,7 @@ FORMS
 </html>
 ```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/c60604d2-d75b-4fee-982a-7684cdb935b4)
-### **Lesson Takeaways**
+### Lesson Takeaways
 Great job! You learned that:
 
  
@@ -431,7 +431,7 @@ Great job! You learned that:
   <input type="submit">
 </form>
 ```
-### **Lesson Takeaways**
+### Lesson Takeaways
 Great job! You learned that:
 
  
@@ -515,7 +515,7 @@ Great job! You learned that:
 
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/3bae984e-cc49-4a07-b4c2-d21332955aa7)
 
-## Lesson Takeaways  
+### Lesson Takeaways  
 
 Good Job! You learned that:  
 
@@ -612,7 +612,7 @@ Good Job! You learned that:
   </body>
 </html>
 ```
-## Lesson Takeaways  
+### Lesson Takeaways  
 
 ⭐ The \<audio\> tag embeds sound into a web page  
 ⭐ The autoplay, muted and loop attributes control how the multimedia behaves  
@@ -682,7 +682,7 @@ You learned that \<header\>, \<main\> and \<footer\>...
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/51604aa7-b78b-4748-a664-9d18f971a27b)
 
 ## Day 6:
-**Lesson Takeaways**  
+Lesson Takeaways  
 Great job! You learned that:  
 
  
@@ -728,7 +728,7 @@ Great job! You learned that:
 </html>
 ```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/5d1f81b5-8b9b-49fb-a100-b585d676bae1)
-**Lesson Takeaways**  
+Lesson Takeaways  
 Great work! You learned to use the style attribute to customize your web pages’...
 
 ⭐ colors  
@@ -795,7 +795,7 @@ Learnt to add files through reels XD and customisation also but took help of CHa
   </body>
 </html>
 ```
-**Lesson Takeaways**
+Lesson Takeaways
 Amazing! You learned that:  
 
  
@@ -877,7 +877,7 @@ Next lesson you’ll learn to group eleme
 ```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/468843c0-a7eb-4eff-b77f-141a86d9b385)
 
-**Lesson Takeaways**  
+Lesson Takeaways  
 ⭐ \<div\> is a container that groups elements  
 
 ⭐ \<div\> is a block-level element  
@@ -1092,7 +1092,7 @@ Congrats! You learned that:
 
 HTML was the perfect choice! Now you know it, there’s so much you can build! And now you’ll pick up the other programming languages much quicker too.
 
-## Lesson Takeaways
+### Lesson Takeaways
 
 Fantastic! You learned that:  
 
@@ -1247,7 +1247,7 @@ Keep learning, keep growing!
 ```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/cfe40689-2170-45f4-a12d-6e09ac185092)
 
-## Lesson Takeaways
+### Lesson Takeaways
 Great job! Here's the recap:  
 
 ⭐ CSS is used to style web pages  
@@ -1440,7 +1440,7 @@ In this lesson, you’ll learn to use IDs to target specific individual elements
 ```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/f7cb29cf-fdf6-4e09-abc9-6b6e037d0018)
 
-## Lesson Takeaways  
+### Lesson Takeaways  
 Great job! You’ve learned that:  
 
 ⭐ The ID selector uses the hash # symbol and targets a specific element  
@@ -1655,14 +1655,161 @@ img {
 }
 ```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/a06f3b28-82bf-4460-b5c5-b185cd9207e6)
-## Lesson Takeaways
+### Lesson Takeaways
 Amazing! You learned that:  
 ⭐ size in CSS can be measured and set in pixels (px), and percentages (%)  
 ⭐ percentages % allow for more responsive designs, adjusting based on the dimensions of parent elements  
 ```html
+<html>
+<body>
+  <h1>Underlined text</h1>
+  <h2>Overlined text</h2>
+  <h3>Line-through text</h3>
+  <h4>Underlined and overlined text</h3>
+</body>
+</html>
 ```
 ```css
+body {
+  background-color: #333333;
+}
+
+h1 {
+  text-decoration: underline;
+  color: #F28D35;
+}
+
+h2 {
+  text-decoration: overline;
+  color: #6BBE92;
+}
+
+h3 {
+  text-decoration: line-through;
+  color: #D83367;
+}
+
+h4 {
+  text-decoration: underline overline;
+  color: #149EF2;
+}
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/73473796-888d-414d-ab1d-9b27b9092e7c)
+```html
+<html>
+  <body>
+    <h1>My Personal Blog</h1>
+    <h2 class="article-title">Adventures in New Zealand</h2>
+    <p>During my trip to New Zealand, I had the chance to visit...</p>
+    <h2 class="article-title">Gourmet Cooking on a Budget</h2>
+    <p>Believe it or not, it's possible to cook gourmet meals without breaking the bank...</p>
+  </body>
+</html>
+```
+```css
+body {
+  background-color: #F3F4F6;
+  color: #333333;
+}
+
+h1 {
+  text-align: center;
+  color: #555555;
+}
+
+.article-title {
+  text-decoration: underline #FF4500;
+  font-size: 24px;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/c0d222c0-7915-415a-8c00-ef029efc1869)
+```html
+<body>
+  <div class="container">
+    <p class="double">
+      This is a double underline.</p>
+    <p class="dotted">
+      This is a dotted underline.</p>
+    <p class="dashed">
+      This is a dashed underline.</p>
+    <p class="wavy">
+      This is a wavy underline.</p>
+  </div>
+</body>
+```
+```css
+p {
+  font-size: 18px;
+}
+
+.double {
+  text-decoration: double underline #E67112;
+}
+
+.dotted {
+  text-decoration: underline dotted #2A9D8F;
+}
+
+.dashed {
+  text-decoration: dashed underline #E76F51;
+}
+
+.wavy {
+  text-decoration: wavy underline #62767E;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/03f5b93e-0811-4318-9588-1675bcdc5b4d)
+```html
+<html>
+  <body>
+    <p class="capitalize">
+    this is a sentence with capitalize transformation.</p>
+    <p class="uppercase">
+     This is a sentence with uppercase transformation.</p>
+    <p class="lowercase">
+     THIS IS A SENTENCE WITH LOWERCASE TRANSFORMATION.</p>
+  </body>
+</html>
+```
+```css
+.capitalize { 
+  text-transform: capitalize; 
+}
+.uppercase { 
+  text-transform: uppercase; 
+}
+.lowercase { 
+  text-transform: lowercase; 
+}
+
+body{
+  background-color: #000A23;
+  color: white;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/31ba99be-e275-46e5-aa27-77408c63d7a8)  
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/cf986391-04a8-43c1-b0c4-20790527d710)  
+```html
+<html>
+  <body>
+    <h1>Harry Potter</h1>
+  </body>
+</html>
+```
+```css
+body {
+  background-color: #6b6262;
+}
+
+h1 {
+  color: #FFFFFF; /* white colored text */
+  text-shadow: 4px 4px 4px #111153; 
+  font-size: 4rem;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/cf45c3fb-73ea-467a-854f-2fd766a949f2)
+### Lesson Takeaways
+n![image](https://github.com/Rizwans-github/Front-end/assets/141806496/05244221-fdc6-4e2a-ad04-20b06ef66c52)
 ```html
 ```
 ```css
@@ -1712,21 +1859,6 @@ Amazing! You learned that:
 ```css
 ```
 ```html
-```
-```css
-```
-```html
-```
-```css
-```
-```html
-```
-```css
-```
-```html
-```
-```css
-``````html
 ```
 ```css
 ```
