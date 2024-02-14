@@ -1,0 +1,176 @@
+body {
+  background-color: #000A23;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+#font-georgia {
+  font-family: Georgia;
+}
+
+#font-arial {
+  font-family: Arial;
+}
+
+#font-courier {
+  font-family: "Courier New";
+}
+
+#font-comic {
+  font-family: "Comic Sans MS";
+}
+
+/*some of web safe fonts:
+Arial, Courier New, Times New Roman,
+Trebuchet MS, Verdana
+*/
+
+#font1 {
+  font-family: Georgia;
+}
+
+#font2 {
+  font-family: Tahoma;
+}
+
+#font3 {
+  font-family: Lucida Console;
+}
+
+#font4 {
+  font-family: Comic Sans MS;
+}
+
+/* Here are more web safe fonts you can try: Arial, Courier New, Times New Roman, Trebuchet MS, Verdana */
+
+.serif-font {
+  /*Fonts have decorative 
+  strokes or serifs.*/
+  font-family: serif;
+}
+
+.sans-serif-font {
+  /*Fonts lack decorative strokes*/
+  font-family: sans-serif;
+}
+
+.monospace-font {
+  /*Fonts have equal character spacing*/
+  font-family: monospace;
+}
+
+.cursive-font {
+  /*Fonts mimic handwriting for 
+  a personal or artistic touch.*/
+  font-family: cursive;
+}
+
+.fantasy-font {
+  /*Decorative or unique fonts
+  not fitting other categories*/
+  font-family: fantasy;
+}
+
+body {
+  background-color: #0C1527;
+  color: #FFFFFF;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+#light {
+    font-weight: 100;
+}
+
+#normal {
+    font-weight: 400;
+}
+
+#bold {
+    font-weight: 700;
+}
+
+#bolder {
+    font-weight: 900;
+}
+
+body {
+    background-color: #F4E1D2;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    color: #D83367;
+}
+
+button {
+    font-weight: 400;
+    color: white;
+    background-color: #D83367;
+}
+
+body{
+    background-color: darkslategrey;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+h2{
+    text-align: center;
+
+}
+img{
+    margin: 0 auto; 
+    display: block; 
+}
+#profile{
+    text-align: center;
+    color:#FFFFFF;
+}
+.active-day{
+    color: #26be26;
+}
+.inactive-day{
+    color: #CCCCCC;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F4F4F4;
+  text-align: center;
+}
+
+a {
+  color: #52C80C;
+  font-family: 'Georgia', serif;
+  background-color: #D6E5E3;
+}
+
+/* defines the style 
+  unvisited links */
+a:link {
+  color: #D11BCE;
+  text-decoration: none;
+}
+
+/* a link is hovered when
+  the mouse is over it */
+a:hover {
+  color: #6897EE;
+  background-color: #000000;
+}
+
+/* click on the link but hasn't 
+  released the mouse button yet */
+a:active{
+  color: #B8860B;
+  background-color: #000000;
+}
+
+body {
+ font-size: 20px;
+}
+
