@@ -1,4 +1,4 @@
-# Learning Front-End
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/efeec4ea-bcbf-4b81-bd51-c92aab5846f7)# Learning Front-End
 I'm fully committed to becoming a proficient data analyst. Balancing a full-time job and ongoing exams, I'll be dedicating focused time to enhance my mathematical skills which will help me improve my analytical abilities.  
 While my main focus is data analysis, I'm also exploring front-end development to keep my coding interest intact.  
 I'm delving into web development with HTML, CSS, and JavaScript to add a practical layer to my skills. This dual focus aims to ensure a well-rounded approach to my professional growth.
@@ -1988,17 +1988,121 @@ button {
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/54af9c91-3dd2-41c8-a54c-af8f2001f14a)
 
 ```html
+<html>
+<head>
+  <title>Mohd Rizwan's Profile</title>
+</head>
+<body>
+  <ul id="profile">
+    <img src="https://blob.sololearn.com/courses/ava.png">
+    <h2>Mohd Rizwan</h2>
+    <p>India</p>
+    <li>25 Followers</li>
+    <li>20 Following</li>
+    <li>⭐️1581 XP</li>
+
+  </ul>
+  <div id="streak">Streak
+    <ul>
+      <li class="active-day">M</li>
+      <li class="active-day">T</li>
+      <li class="active-day">W</li>
+      <li class="inactive-day">T</li>
+      <li class="inactive-day">F</li>
+      <li class="inactive-day">S</li>
+      <li class="inactive-day">S</li>
+    </ul>
+    <p>Current Streak: 3</p>
+    <p>Longest Streak: 16</p>
+  </div>
+</body>
+</html>
 ```
 ```css
+body{
+    background-color: darkslategrey;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+h2{
+    text-align: center;
+
+}
+img{
+    margin: 0 auto; 
+    display: block; 
+}
+#profile{
+    text-align: center;
+    color:#FFFFFF;
+}
+.active-day{
+    color: #26be26;
+}
+.inactive-day{
+    color: #CCCCCC;
+}
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/02d3a1cd-e013-47ea-bede-25fb2701f370)
 ```html
+<body>
+  <div class="container">
+    <h1>Welcome to our website!</h1>
+    <p>Check out our 
+      <a href="https://www.example.com">special offers</a> 
+      page for amazing deals.</p>
+  </div>
+</body>
 ```
 ```css
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F4F4F4;
+  text-align: center;
+}
+
+a {
+  color: #52C80C;
+  font-family: 'Georgia', serif;
+  background-color: #D6E5E3;
+}
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/90420bba-efe8-4675-915c-bc09bcb9b2f2)
 ```html
+<body>
+  <a href="www.example.com">Link </a>
+</body>
 ```
 ```css
+/* defines the style 
+  unvisited links */
+a:link {
+  color: #D11BCE;
+  text-decoration: none;
+}
+
+/* a link is hovered when
+  the mouse is over it */
+a:hover {
+  color: #6897EE;
+  background-color: #000000;
+}
+
+/* click on the link but hasn't 
+  released the mouse button yet */
+a:active{
+  color: #B8860B;
+  background-color: #000000;
+}
+
+body {
+ font-size: 20px;
+}
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/9c481920-f47f-4367-99c2-f01049f5cfd4)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/584d6860-3351-44d4-b07c-d246b9f5033a)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/47f3a8b4-22fd-40b5-8864-6413855fd896)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/c2dd6fad-3110-4a41-8384-ae10cc6587ad)
 ```html
 ```
 ```css
