@@ -1,4 +1,4 @@
-![image](https://github.com/Rizwans-github/Front-end/assets/141806496/f90ac46d-7b13-4f72-8395-7aa97b44b02f)# Learning Html
+# Learning Front-End
 I'm fully committed to becoming a proficient data analyst. Balancing a full-time job and ongoing exams, I'll be dedicating focused time to enhance my mathematical skills which will help me improve my analytical abilities.  
 While my main focus is data analysis, I'm also exploring front-end development to keep my coding interest intact.  
 I'm delving into web development with HTML, CSS, and JavaScript to add a practical layer to my skills. This dual focus aims to ensure a well-rounded approach to my professional growth.
@@ -1810,18 +1810,183 @@ h1 {
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/cf45c3fb-73ea-467a-854f-2fd766a949f2)
 ### Lesson Takeaways
 n![image](https://github.com/Rizwans-github/Front-end/assets/141806496/05244221-fdc6-4e2a-ad04-20b06ef66c52)
+
+## Day 14
 ```html
+<body>
+  <p id="font-georgia">Georgia</p>
+  <p id="font-arial">Arial</p>
+  <p id="font-courier">Courier New</p>
+  <p id="font-comic">Comic Sans MS</p>
+</body>
 ```
 ```css
+body {
+  background-color: #000A23;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+#font-georgia {
+  font-family: Georgia;
+}
+
+#font-arial {
+  font-family: Arial;
+}
+
+#font-courier {
+  font-family: "Courier New";
+}
+
+#font-comic {
+  font-family: "Comic Sans MS";
+}
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/b7baaa1f-e10d-47e5-92f6-df32fae4ce6b)
 ```html
+<html>
+<body>
+  <h2 id="font1">Daily Brews</h2>
+  <h2 id="font2">Daily Brews</h2>
+  <h2 id="font3">Daily Brews</h2>
+  <h2 id="font4">Daily Brews</h2>
+</body>
+</html>
 ```
 ```css
+/*some of web safe fonts:
+Arial, Courier New, Times New Roman,
+Trebuchet MS, Verdana
+*/
+
+#font1 {
+  font-family: Georgia;
+}
+
+#font2 {
+  font-family: Tahoma;
+}
+
+#font3 {
+  font-family: Lucida Console;
+}
+
+#font4 {
+  font-family: Comic Sans MS;
+}
+
+/* Here are more web safe fonts you can try: Arial, Courier New, Times New Roman, Trebuchet MS, Verdana */
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/e6ecad4c-12fc-4809-b9d4-1d747bbfbda9)
+
 ```html
+<body>
+  <h2 class="serif-font">This is a serif font.</h2>
+  <h2 class="sans-serif-font">This is a sans-serif font.</h2>
+  <h2 class="monospace-font">This is a monospace font.</h2>
+  <h2 class="cursive-font">This is a cursive font.</h2>
+  <h2 class="fantasy-font">This is a fantasy font.</h2>
+</body>
 ```
 ```css
+.serif-font {
+  /*Fonts have decorative 
+  strokes or serifs.*/
+  font-family: serif;
+}
+
+.sans-serif-font {
+  /*Fonts lack decorative strokes*/
+  font-family: sans-serif;
+}
+
+.monospace-font {
+  /*Fonts have equal character spacing*/
+  font-family: monospace;
+}
+
+.cursive-font {
+  /*Fonts mimic handwriting for 
+  a personal or artistic touch.*/
+  font-family: cursive;
+}
+
+.fantasy-font {
+  /*Decorative or unique fonts
+  not fitting other categories*/
+  font-family: fantasy;
+}
+
+body {
+  background-color: #0C1527;
+  color: #FFFFFF;
+}
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/bab3c728-99d4-4071-a1f4-90868898cbe7)
+```html
+<body>
+  <p id="light">This is light text.</p>
+  <p id="normal">This is normal text.</p>
+  <p id="bold">This is bold text.</p>
+  <p id="bolder">This is bolder text.</p>
+</body>
+```
+```css
+p {
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+#light {
+    font-weight: 100;
+}
+
+#normal {
+    font-weight: 400;
+}
+
+#bold {
+    font-weight: 700;
+}
+
+#bolder {
+    font-weight: 900;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/d9400d49-4dbd-4c34-ac10-c17d917d96a9)
+```html
+<body>
+  <h1>Baking 101</h1>
+  <p>Join our <strong>exclusive</strong> online course and learn 
+    from the best chefs in town.</p>
+  <button>Enroll Now</button>
+</body>
+```
+```css
+body {
+    background-color: #F4E1D2;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    color: #D83367;
+}
+
+button {
+    font-weight: 400;
+    color: white;
+    background-color: #D83367;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/3112dd83-6e2f-4858-99bf-7f94ba0b636c)
+
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/67f5da1f-4c59-4024-94c4-aa05698290c5)
+
+### Lesson Takeaways
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/54af9c91-3dd2-41c8-a54c-af8f2001f14a)
+
 ```html
 ```
 ```css
