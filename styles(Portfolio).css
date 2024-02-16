@@ -1,0 +1,26 @@
+body {
+    color:rgb(255, 157, 0);
+    text-align: center;
+}
+img {
+    border:dashed 4px  rgb(255, 157, 0);
+    border-radius: 100%;
+    margin-bottom: -35px; /* Ran into a problem where margin was too much so resolved it*/
+}
+p {
+    color:rgb(255, 157, 0);
+    font-size:40px;
+    font-weight:900;
+    font-family:Georgia;
+}
+.text {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -50px;
+    color:rgb(255, 157, 0);
+    font-size: 15px;
+    text-align: justify;
+}
+p b {
+    font-weight: 900;
+}
