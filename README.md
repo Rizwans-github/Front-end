@@ -1,7 +1,7 @@
-![image](https://github.com/Rizwans-github/Front-end/assets/141806496/efeec4ea-bcbf-4b81-bd51-c92aab5846f7)# Learning Front-End
-I'm fully committed to becoming a proficient data analyst. Balancing a full-time job and ongoing exams, I'll be dedicating focused time to enhance my mathematical skills which will help me improve my analytical abilities.  
-While my main focus is data analysis, I'm also exploring front-end development to keep my coding interest intact.  
-I'm delving into web development with HTML, CSS, and JavaScript to add a practical layer to my skills. This dual focus aims to ensure a well-rounded approach to my professional growth.
+# Learning Front-End
+I'm fully committed to becoming a proficient data analyst. Balancing a full-time job and ongoing college.
+My main focus is data analysis, I'm also exploring front-end development to keep my coding interest intact.  
+I'm exploring web development with HTML, CSS, and JavaScript to add a practical layer to my skills. This dual focus aims to ensure a well-rounded approach to my professional growth.
 
 ## Day 1:
 ```html
@@ -2104,21 +2104,244 @@ body {
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/47f3a8b4-22fd-40b5-8864-6413855fd896)
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/c2dd6fad-3110-4a41-8384-ae10cc6587ad)
 ```html
+<body>
+  <!-- Table with a border around the table -->
+  <table id="table1">
+    <tr>
+      <th>Rank</th>
+      <th>Movie Title</th>
+      <th>Director</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Dune</td>
+      <td>Dennis Villeneuve</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Spider-Man: No Way Home</td>
+      <td>Jon Watts</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>The French Dispatch</td>
+      <td>Wes Anderson</td>
+    </tr>
+  </table>
+  <br>
+  <!-- Table with borders on all cells -->
+  <table id="table2">
+    <tr>
+      <th>Rank</th>
+      <th>Movie Title</th>
+      <th>Director</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Dune</td>
+      <td>Dennis Villeneuve</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Spider-Man: No Way Home</td>
+      <td>Jon Watts</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>The French Dispatch</td>
+      <td>Wes Anderson</td>
+    </tr>
+  </table>
+</body>
 ```
 ```css
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F7F8FC;
+}
+
+/* Applying the border around the table */
+#table1 {
+  border: 2px solid #0C1527;
+}
+
+/* Applying borders to each cell */
+#table2 th, 
+#table2 td {
+  border: 2px solid #0C1527;
+}
+
+td {
+  text-align: left;
+}
+
+th{
+  text-align: left;
+  background-color: #149EF2;
+}
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/02915445-65c8-4825-94b3-612001e5629b)
+
 ```html
+<body>
+  <table>
+    <tr>
+      <th>Planet</th>
+      <th>Average Distance from Earth (million km)</th>
+    </tr>
+    <tr>
+      <td>Venus</td>
+      <td>41.4</td>
+    </tr>
+    <tr>
+      <td>Mars</td>
+      <td>78.3</td>
+    </tr>
+    <tr>
+      <td>Mercury</td>
+      <td>91.7</td>
+    </tr>
+    <tr>
+      <td>Jupiter</td>
+      <td>628.7</td>
+    </tr>
+    <tr>
+      <td>Saturn</td>
+      <td>1.275</td>
+    </tr>
+    <tr>
+      <td>Uranus</td>
+      <td>2.724</td>
+    </tr>
+    <tr>
+      <td>Neptune</td>
+      <td>4.351</td>
+    </tr>
+  </table>
+</body>
 ```
 ```css
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000A23;
+  color: rgb(255, 253, 253);
+}
+
+th, td {
+  border: 1px solid #FAFAFA;
+  text-align: center;
+}
+
+th {
+  background-color: #5B52DD;
+}
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/667625c1-83e7-4e0b-b4fc-f0e54b6da6e5)
+
 ```html
+<body>
+  <table>
+    <tr>
+      <th>Rank</th>
+      <th>Movie Title</th>
+      <th>Box Office Collection (in $ millions)</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Avatar</td>
+      <td>2.847</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Avengers: Endgame</td>
+      <td>2.798</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Titanic</td>
+      <td>2.202</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Star Wars: The Force Awakens</td>
+      <td>2.068</td>
+    </tr>
+  </table>
+</body>
 ```
 ```css
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F3F4F6;
+  color: #333;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 2px solid #365366;
+}
+
+th {
+  background-color: #4A90E2;
+  color: white;
+}
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/a22256d1-22d9-49b3-8ea2-333bea00ffae)
+
 ```html
+<body>
+  <table>
+    <tr>
+      <th>Rank</th>
+      <th>Movie Title</th>
+      <th>Revenue</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Avatar</td>
+      <td>2.847</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Avengers: Endgame</td>
+      <td>2.798</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Titanic</td>
+      <td>2.202</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Star Wars: The Force Awakens</td>
+      <td>2.068</td>
+    </tr>
+  </table>
+</body>
 ```
 ```css
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F3F4F6;
+  color: #333;
+}
+
+tr:nth-child(3){
+  background-color: #FFA310;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 2px solid #909092;
+}
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/76cb4f1f-7eca-4bdc-b7db-39ce9fd132c6)
 ```html
 ```
 ```css
