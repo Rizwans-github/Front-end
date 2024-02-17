@@ -2103,6 +2103,7 @@ body {
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/584d6860-3351-44d4-b07c-d246b9f5033a)
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/47f3a8b4-22fd-40b5-8864-6413855fd896)
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/c2dd6fad-3110-4a41-8384-ae10cc6587ad)
+## Day 15:
 ```html
 <body>
   <!-- Table with a border around the table -->
