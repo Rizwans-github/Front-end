@@ -6,6 +6,9 @@ img {
     border:dashed 4px  rgb(255, 157, 0);
     border-radius: 100%;
     margin-bottom: -35px; /* Ran into a problem where margin was too much so resolved it*/
+    width:20%;
+    min-width: 75px;
+    max-width: 150px;
 }
 p {
     color:rgb(255, 157, 0);
@@ -24,3 +27,20 @@ p {
 p b {
     font-weight: 900;
 }
+nav {
+    text-emphasis: bold;
+}
+nav a:link {
+    text-decoration: none;
+    color:rgb(255, 157, 0);
+}
+nav a:hover {
+    color: rgb(255, 85, 0)
+}
+nav a:active {
+    color: rgb(255, 8, 0)
+}
+nav a:visited {
+    color: rgba(157, 43, 18, 0.658);
+}
+
