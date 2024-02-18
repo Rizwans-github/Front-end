@@ -2343,14 +2343,122 @@ th, td {
 }
 ```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/76cb4f1f-7eca-4bdc-b7db-39ce9fd132c6)
+
 ```html
+<body>
+  <table>
+    <tr>
+      <th>Rank</th>
+      <th>Movie Title</th>
+      <th>Box Office Collection (in $ millions)</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Avatar</td>
+      <td>2,847</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Avengers: Endgame</td>
+      <td>2,798</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Titanic</td>
+      <td>2,202</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Star Wars: The Force Awakens</td>
+      <td>2,068</td>
+    </tr>
+  </table>
+</body>
 ```
 ```css
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3b404a;
+  color: rgb(248, 0, 0);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+/* light gray for odd rows */
+tr:nth-child(odd) {
+  background-color: #f3f3f3;  
+}
+
+/* white for even rows */
+tr:nth-child(even) {
+  background-color: #FFFFFF;  
+}
+
+th, td {
+  border: 2px solid #909092;
+}
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/92c5724a-343c-4b79-8831-ea72b05b7bbe)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/deb89dd1-dcdd-4d6d-ac6c-a54f1a951ae1)
+## Day 16:
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/e7ae3061-8125-4d32-a2d7-45f55d6b495d)
+
 ```html
+<body>
+  <h2>Trending Today</h2>
+  <ul class="trends">
+    <li>Spider-Man: No Way Home</li>
+    <li>Dune</li>
+  </ul>
+  <h2>Most Watched</h2>
+  <ul class="most-watched">
+    <li>Inception</li>
+    <li>The Godfather</li>
+  </ul>
+  <h2>New Arrivals</h2>
+  <ul class="new-arrivals">
+    <li>Black Widow</li>
+    <li>No Time to Die</li>
+  </ul>
+  <h2>Classics</h2>
+  <ul class="classics">
+    <li>Gone with the Wind</li>
+    <li>Citizen Kane</li>
+  </ul>
+</body>
 ```
 ```css
+.trends {
+  list-style-type: square;
+}
+
+.most-watched {
+  list-style-type: circle;
+}
+
+.new-arrivals {
+  list-style-type: disc;
+}
+
+.classics {
+  list-style-type: none;
+}
+
+body {
+  background-color: #232323;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+h2 {
+  color: #B8A7C2;
+  text-align: center;
+}
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/45676497-44ba-4eee-8978-c34490e64e1c)
+
 ```html
 ```
 ```css
