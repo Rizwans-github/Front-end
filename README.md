@@ -2460,93 +2460,730 @@ h2 {
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/45676497-44ba-4eee-8978-c34490e64e1c)
 
 ```html
+<body>
+  <h1>Cozy Bookstore</h1>
+  <h2>Top Selling Books</h2>
+  <ol class="top-selling">
+    <li>Harry Potter</li>
+    <li>The Hunger Games</li>
+    <li>The Da Vinci Code</li>
+  </ol>
+  <h2>Classic Literature</h2>
+  <ol class="classic">
+    <li>Pride and Prejudice</li>
+    <li>Moby-Dick</li>
+    <li>War and Peace</li>
+  </ol>
+  <h2>Biographies</h2>
+  <ol class="biographies">
+    <li>Steve Jobs</li>
+    <li>Einstein</li>
+    <li>The Diary of a Young Girl</li>
+  </ol>
+  <h2>Fantasy Epics</h2>
+  <ol class="fantasy">
+    <li>A Song of Ice and Fire series</li>
+    <li>The Lord of the Rings</li>
+    <li>The Wheel of Time series</li>
+  </ol>
+</body>
 ```
 ```css
+.top-selling {
+  list-style-type: decimal-leading-zero;
+}
+
+.classic {
+  list-style-type: decimal;
+}
+
+.biographies {
+  list-style-type: lower-roman;
+}
+
+.fantasy {
+  list-style-type: upper-roman;
+}
+
+h1,h2 {
+  background-color: #FFA055;
+  text-align: center;
+}
+
+li {
+  font-size: 18px;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/dcdce989-efc9-4833-b4d2-e5886e677ce8)
+
+```html
+<body>
+  <p>Plan the trip</p>
+  <ul id="list-inside">
+    <li>When planning a road trip, make sure to check the weather forecast.</li>
+    <li>Research and choose your destination based on your interests.</li>
+    <li>Book your accommodations in advance to secure the best deals and availability.</li>
+  </ul>
+<br>
+  <p>Tips for Time Management</p>
+  <ul id="list-outside">
+    <li>Start your day by identifying the most important tasks you need to accomplish.</li>
+    <li>Allocate dedicated time blocks for specific tasks or projects.</li>
+    <li>Plan your day or week in advance to reduce decision-making stress.</li>
+  </ul>
+</body>
+```
+```css
+/* places the marker within the text 
+  area, inside the item element */
+#list-inside {
+  list-style-position: inside;
+}
+
+/* places the marker outside the text 
+  area, outside the item element */
+#list-outside {
+  list-style-position: outside;
+}
+
+p {
+  text-align: center;
+  background-color: #B538E7;
+  font-size: 26px;
+}
+
+li {
+  border: 2px solid #CCCCCC;
+  font-size: 18px;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/8ccefa41-e34d-41e7-bc94-9d6f08b74328)
+
+```html
+<!-- Created by htmllessons (P.S: giving credits is a good habit :)) -->
+
+<body>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+</body>
+```
+```css
+/* Created by htmllessons (P.S: giving credits is a good habit :)) */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #282a36;
+    color: #f8f8f2;
+    font-size: 18px;
+}
+
+ul {
+    list-style-image: url('https://blob.sololearn.com/courses/logo.png');
+    background-color: #44475a;
+}
+
+li {
+    font-weight: 600;
+    text-shadow: 2px 2px 3px #6272a4;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/796c4d96-58a8-4e62-8d41-18a19a5f02d1)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/cad31297-21b7-4512-bed3-fd008fa60fe4)
+
+```html
+<form>
+  <label for="name">Name: </label>
+  <input type="text" id="name"> 
+  <br><br>
+  <label for="email">Email: </label>
+  <input type="email" id="email">
+  <br><br>
+  <input type="button" class ="button" value="Send">
+</form>
+```
+```css
+body{
+  background-color: #0C1527;
+}
+
+input {
+  border:1px solid #FF9E03;
+}
+label {
+  font-weight: bold;
+  color: #FF9E03;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/5e16e04e-4d64-4c15-8407-e7c278e60491)
+
+```html
+<form>
+  <label for="name">Name: </label>
+  <input type="text" id="name"> 
+  <br><br>
+  <label for="email">Email: </label>
+  <input type="email" id="email">
+  <br><br>
+  <input type="submit" value="Send">
+</form>
+```
+```css
+body{
+  background-color: #0C1527;
+}
+
+input[type="text"] {
+  border: 1px solid #FF9E03;
+  background-color: #17233B;
+}
+
+label {
+  font-weight: bold;
+  color: #ff9e03;
+}
+input[type="email"] {
+    background-color: #17233B;
+    border:1px solid #ff9e03;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/450652de-6e0f-4e92-a72a-b213f435feea)
+
+```html
+<form>
+  <label for="name">Name: </label>
+  <input type="text" id="name"> 
+  <br><br>
+  <label for="email">Email: </label>
+  <input type="email" id="email">
+  <br><br>
+  <input type="submit" value="Send">
+</form>
+```
+```css
+body{
+  background-color: #0C1527;
+}
+
+input[type="text"], input[type="email"] {
+  border: 1px solid #FF9E03;
+  background-color: #17233B;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+label {
+  font-weight: bold;
+  color: #FF9E03;
+}
 ```
 ```html
+<form>
+  <label for="name">Name: </label>
+  <input type="text" id="name"> 
+  <br><br>
+  <label for="email">Email: </label>
+  <input type="email" id="email">
+  <br><br>
+  <input type="button" value="Send">
+</form>
 ```
 ```css
+body{
+  background-color: #0C1527;
+}
+
+input[type="text"], input[type="email"] {
+  border: 1px solid #FF9E03;
+  background-color: #17233B;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+input[type='button'] {
+  background-color: #149EF2;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  color: white;
+}
+
+input[type='button']:active {
+  background-color: #0C1527;
+  color: #FF9E03;
+  border: 1px solid #FF9E03;
+  border-radius: 10px;
+}
+
+label {
+  font-weight: bold;
+  color: #FF9E03;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/52ed2b5f-f7e4-40e9-ac54-650e08fc10e8)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/f257c6b6-3c15-4e49-84a3-9b619736e6a6)
+## Day 17:
+
+```html
+<html>
+<head>
+  <title>Block-level Elements</title>
+</head>
+<body>
+  <h2>Block-level Element 1</h2>
+  <div>
+  <p>Block-level Element 2</p>
+  </div>
+</body>
+</html>
+```
+```css
+h2, p {
+  background-color: #D6C4E9;
+}
+
+div{
+    width: 50%;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/49c37b2c-98a6-4555-8de0-de28b3d2be86)
+
+```html
+<html>
+<head>
+  <title>Block-level Elements</title>
+</head>
+<body>
+  <h2>Block-level Element 1</h2>
+  <div>
+  <p>Block-level Element 2</p>
+  </div>
+  <a href = "example.com">Inline Element</a>
+</body>
+</html>
+```
+```css
+h2, p, a {
+  background-color: #d6c4e9;
+}
+
+div{
+    width: 50%;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/dce9fe61-e0ba-4dac-822d-8308f2c433ad)
+
+```html
+<body>
+  <div class="padded-box">
+    Element with padding.
+  </div> <br>
+  <div class="default-box">
+    Element without padding.
+  </div>
+</body>
+```
+```css
+.padded-box {
+  border: 2px solid #FFA310;
+  padding: 20px;
+  color: #FFFFFF;
+}
+.default-box {
+  border: 2px solid #FFA310;
+  color: #FFFFFF;
+}
+
+body {
+  background-color: #0C1527;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/d0e00df7-da73-4b38-b996-cc762c670d2c)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/e5f8bac7-44f0-4a36-97b6-0fdb7422610a)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/af791a54-d18e-4ca2-91be-eb046619de2b)
+
+```html
+<body>
+  <div class="default-box">
+    Element without padding and 
+    margin
+  </div>  
+  <div class="custom-box1">
+    Element with padding
+  </div> <br>
+  <div class="custom-box2">
+    Element with padding and margin
+  </div>
+</body>
+```
+```css
+.custom-box2 {
+  border: 2px solid #FFA310;
+  padding: 10px;
+  margin: 10px;
+  color: #FFFFFF;
+}
+
+.custom-box1 {
+  border: 2px solid #FFA310;
+  padding: 10px;
+  color: #FFFFFF;
+}
+.default-box {
+  border: 2px solid #FFA310;
+  color: #FFFFFF;
+}
+
+body {
+  background-color: #0C1527;
+}
+
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/6bcd1ea0-664d-4934-a616-1ee3f502e273)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/141b5a0a-2031-4087-b4b5-77bc8b366938)
+
+```html
+<body>
+  <h1>My Blog</h1>
+  <p>Today, I went to the <a href="#">park</a> 
+  and saw some birds.</p>
+</body>
+```
+```css
+a {
+  display: block;
+  border: #4478B1 solid;
+  text-decoration: none;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/6428b6cc-8408-4f99-b447-2b62341a5ebe)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/c11fbf2e-6548-4eb5-a34c-43c81048356e)
+
+```html
+<body>
+  <div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+</body>
+```
+```css
+div {
+  border: 1px solid rgb(189, 185, 185);
+  box-shadow: 0 2px 4px #000000;
+  display: flex;
+}
+
+p {
+  border: 1px solid rgb(189, 185, 185);
+  margin-left: 2px;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/bd4c2990-d948-4958-b797-6265b3df6880)
+
+```html
+<body>
+  <p>Items that do not wrap to the next line:</p>
+  <div id="nowrap">
+    <button>Submit</button>
+    <button>Revert</button>
+    <button>Delete all</button>
+  </div>
+  <p>Items that wrap to the next line if needed:</p>
+  <div id="wrap">
+    <button>Submit</button>
+    <button>Revert</button>
+    <button>Delete all</button>
+  </div>
+</body>
+```
+```css
+#wrap {
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(189, 185, 185);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#nowrap {
+  padding: 20px;
+  border: 1px solid rgb(189, 185, 185);
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+button {
+  border: 1px solid rgb(189, 185, 185);
+  box-shadow: 4px 4px 6px #98acb6;
+  background-color: rgb(247, 228, 203);
+  margin: 5px;
+  font-size: 30px;
+}
+
+p {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blueviolet;
+  color: #FFFFFF;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/73ef4b82-174e-4efb-8fd0-ba939c4f83e2)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/4bd71502-befc-4533-a2be-30c1db07c0b7)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/49947074-75cc-4a02-b137-077792a1e708)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/929627e2-c9a3-4293-94d9-d3d015ff969c)
+
+```html
+<body>
+  <div id="container">
+    <p class="item">Item 1</p>
+    <p class="item">Item 2</p>
+  </div>
+</body>
+```
+```css
+#container {
+  display: flex;
+  border: 1px solid black;
+}
+
+.item {
+  flex-grow: 0;
+  border: 1px solid green;
+  margin-right: 2px;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/85ec881c-f7bc-44dc-a700-97e07c09cd6e)
+
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/69214729-dc5a-431a-bca2-2543c1f9ae17)
+
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/33af9245-98ab-4e3e-8fa2-dc8db4560f57)
+
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/bb3b65b2-2b70-4cb0-8c3b-f754da9d8606)
+
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/ef70ca40-80f4-4a16-8f9c-8cd31f82dbb9)
+
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/4e83a2e1-4d5d-4d34-be97-24589b8a1b8c)
+
+```html
+<body>
+  <button id="item1">Element 1</button>
+  <button id="item2">Element 2</button>
+  <button id="item3">Element 3</button>
+</body>
+```
+```css
+#item1 {
+  position:absolute;
+  left: 10px;
+  top: 20px;
+}
+
+#item2 {
+  position:absolute;
+  left: 50px;
+  top: 60px;
+}
+
+#item3 {
+  position:absolute;
+  left: 80px;
+  top: 120px;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/ec3d7a87-9e0f-4145-9660-07eee01231e5)
+
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/f09d9125-2033-4dbf-8083-90beaec011fd)
+
+```html
+<body>
+  <div id="item1"></div>
+
+  <div id="item2"></div>
+</body>
+```
+```css
+/* Default static position */
+#item1 {
+  background-color: #0000FF;
+  height: 100px;
+  width: 300px;
+}
+
+/* Absolute positioning */
+#item2 {
+  position: absolute;
+  left: 50px;
+  top: 40px;
+  background-color: #FF0000;
+  height: 100px;
+  width: 300px;
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/d63c3348-a838-46b0-ac2a-fe44c967ca5e)
+
+```html
+<body>
+  <section>
+    <h1>Your Building Company</h1>
+
+    <h2>About Us</h2>
+    <p>Welcome to Your Building Company, where quality meets craftsmanship. With years of experience in the construction industry, we are dedicated to bringing your vision to life. Our team of skilled professionals is committed to delivering exceptional results on every project.</p>
+
+    <div id="fixed">
+      Contact Us: contact@example.com | Phone: (123) 456-7890
+    </div>
+    <h2>Our Services</h2>
+    <ul>
+      <li>New Construction</li>
+      <li>Renovations and Remodeling</li>
+      <li>Commercial Projects</li>
+      <li>Custom Design and Build</li>
+      <li>Interior and Exterior Upgrades</li>
+      <li>Project Management</li>
+    </ul>
+
+    <h2>View from the Building</h2>
+    <p>Experience breathtaking views from our meticulously designed buildings. Whether it's a skyline panorama, a serene garden, or a scenic waterfront, our projects offer the best vantage points to enjoy your surroundings.</p>
+
+    <h2>Amenities</h2>
+    <ul>
+      <li>Swimming Pool</li>
+      <li>Lush Garden</li>
+      <li>Kindergarten</li>
+      <li>Close Proximity to Schools</li>
+      <li>Nearby Hospitals</li>
+    </ul>
+    <p>At Your Building Company, we understand that a great living experience goes beyond just construction. Our properties are strategically located to offer you easy access to essential amenities for your convenience and peace of mind.</p>
+  </section>
+</body>
+```
+```css
+#fixed {
+  width: 100%;
+  background-color: #3498db;
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+  position: fixed;
+}
+
+h1 {
+  width: 100%;
+  background-color: #3498db;
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+}
+
+section {
+  margin-bottom: 40px;
+}
 ```
 ```html
+<body>
+    <div>First</div>
+    <div class="special">Second</div>
+    <div>Third</div>
+</body>
 ```
 ```css
+div {
+    width: 80%;
+    margin: 10px 0px;
+    border: 1px solid #747171;
+    text-align: center;
+}
+
+.special {
+    background-color: #FFD700;
+    position: relative;
+    /*shift from left;*/
+    left: 20px;
+}
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/b3d157b0-4d85-4ffe-887e-ef765b0611c8)
+
 ```html
+<body>
+  <div id="parent">
+    <button id="child">Accept</button>
+  </div>
+</body>
 ```
 ```css
+#parent {
+  border:solid;
+  width: 150px;
+  height: 80px;
+  left: 40px;
+  top: 60px;
+  position: relative;
+}
+
+#child {
+  position:absolute;
+  top: 10px;
+  left: 20px
+}
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/61672f38-cf0e-4a8f-b2f7-92215529e869)
+
 ```html
+<body>
+  <div id="grandparent">
+    <div id="parent">
+      <button id="child">Click me</button>
+    </div>
+  </div>
+</body>
 ```
 ```css
+#grandparent {
+  position: relative;
+  width: 250px;
+  height: 150px;
+  border: 1px solid;
+}
+
+#parent {
+  width: 150px;
+  height: 100px;  
+  border: 1px solid blue;
+  margin: 40px 20px;
+}
+
+#child {
+    position: absolute;
+    left: 150px;
+    top: 110px;
+}
 ```
-```html
-```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/bc365cbc-a3a9-44c0-8f99-2365b1ac5fd6)
+
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/0982075e-deee-4795-bff4-08efc911627a)
+ 
 ```css
+#parent {
+  position: relative;
+  width: 150px;
+  height: 100px;
+  border: 1px solid;
+}
+
+#child {
+  position: absolute;
+  /* right and bottom edges of 
+  the child will be aligned with the
+  right and bottom edges of the #parent */
+  right: 0px;
+  bottom: 0px;
+}
 ```
-```html
-```
-```css
-```
-```html
-```
-```css
-```
-```html
-```
-```css
-```
-```html
-```
-```css
-```
-```html
-```
-```css
-```
-```html
-```
-```css
-```
-```html
-```
-```css
-```
-```html
-```
-```css
-```
-```html
-```
-```css
-```
-```html
-```
-```css
-```
-```html
-```
-```css
-```
-```html
-```
-```css
-```
-```html
-```
-```css
-```
-```html
-```
-```css
-```
-```html
-```
-```css
-```
-```html
-```
-```css
-```
+
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/d0e756ab-a80f-4a2a-8027-d93f20bb4d75)
+
 ```html
 ```
 ```css
