@@ -1,1 +1,174 @@
+.trends {
+  list-style-type: square;
+}
+
+.most-watched {
+  list-style-type: circle;
+}
+
+.new-arrivals {
+  list-style-type: disc;
+}
+
+.classics {
+  list-style-type: none;
+}
+
+body {
+  background-color: #232323;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+h2 {
+  color: #B8A7C2;
+  text-align: center;
+}
+
+
+.top-selling {
+  list-style-type: decimal-leading-zero;
+}
+
+.classic {
+  list-style-type: decimal;
+}
+
+.biographies {
+  list-style-type: lower-roman;
+}
+
+.fantasy {
+  list-style-type: upper-roman;
+}
+
+h1,h2 {
+  background-color: #FFA055;
+  text-align: center;
+}
+
+li {
+  font-size: 18px;
+}
+
+
+/* places the marker within the text 
+  area, inside the item element */
+#list-inside {
+  list-style-position: inside;
+}
+
+/* places the marker outside the text 
+  area, outside the item element */
+#list-outside {
+  list-style-position: outside;
+}
+
+p {
+  text-align: center;
+  background-color: #B538E7;
+  font-size: 26px;
+}
+
+li {
+  border: 2px solid #CCCCCC;
+  font-size: 18px;
+}
+
+/* Created by htmllessons (P.S: giving credits is a good habit :)) */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #282a36;
+    color: #f8f8f2;
+    font-size: 18px;
+}
+
+ul {
+    list-style-image: url('https://blob.sololearn.com/courses/logo.png');
+    background-color: #44475a;
+}
+
+li {
+    font-weight: 600;
+    text-shadow: 2px 2px 3px #6272a4;
+}
+
+
+body{
+  background-color: #0C1527;
+}
+
+input {
+  border:1px solid #FF9E03;
+}
+label {
+  font-weight: bold;
+  color: #FF9E03;
+}
+
+body{
+  background-color: #0C1527;
+}
+
+input[type="text"] {
+  border: 1px solid #FF9E03;
+  background-color: #17233B;
+}
+
+label {
+  font-weight: bold;
+  color: #ff9e03;
+}
+input[type="email"] {
+    background-color: #17233B;
+    border:1px solid #ff9e03;
+}
+
+body{
+  background-color: #0C1527;
+}
+
+input[type="text"], input[type="email"] {
+  border: 1px solid #FF9E03;
+  background-color: #17233B;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+label {
+  font-weight: bold;
+  color: #FF9E03;
+}
+
+body{
+  background-color: #0C1527;
+}
+
+input[type="text"], input[type="email"] {
+  border: 1px solid #FF9E03;
+  background-color: #17233B;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+input[type='button'] {
+  background-color: #149EF2;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  color: white;
+}
+
+input[type='button']:active {
+  background-color: #0C1527;
+  color: #FF9E03;
+  border: 1px solid #FF9E03;
+  border-radius: 10px;
+}
+
+label {
+  font-weight: bold;
+  color: #FF9E03;
+}
+
 
