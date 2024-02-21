@@ -3183,21 +3183,224 @@ div {
 ```
 
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/d0e756ab-a80f-4a2a-8027-d93f20bb4d75)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/d4e10d28-4315-4a8b-a675-907facd45914)
 
 ```html
+<body>
+    <div class="visual">
+        <h3>ease</h3>
+        <div id="item1"></div>
+
+        <h3>linear</h3>
+        <div id="item2"></div>
+
+        <h3>ease-in</h3>
+        <div id="item3"></div>
+
+        <h3>ease-out</h3>
+        <div id="item4"></div>
+    </div>
+</body
 ```
 ```css
+#item1 {
+    width: 40px;
+    height: 40px;
+    background-color: #FFA310;
+    animation: move 5s;
+    /*speeds up first, then slows down*/
+    animation-timing-function: ease;
+}
+
+#item2 {
+    width: 40px;
+    height: 40px;
+    background-color: #10FF14;
+    animation: move 5s;
+    /*constant speed*/
+    animation-timing-function: linear;
+}
+
+#item3 {
+    width: 40px;
+    height: 40px;
+    background-color: #1064FF;
+    animation: move 5s;
+    /*starts slow, then speeds up*/
+    animation-timing-function: ease-in;
+}
+
+#item4 {
+    width: 40px;
+    height: 40px;
+    background-color: #C73447;
+    animation: move 5s;
+    /*starts fast, then slows down*/
+    animation-timing-function: ease-out;
+}
+
+@keyframes move {
+    0% { left: 0;}
+    100% { left: 250px;}
+}
+
+div {
+    margin-top: 30px;
+    position: relative;
+}
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/d697ff7e-afdf-4c26-91d3-abfb6e9768d7)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/9e93e977-36ac-43a1-9585-a37cb3d5c06f)
+## Day 18:
 ```html
+<head>
+  <title>Animated Loading Spinner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="spinner"></div>
+</body>
 ```
 ```css
+body {
+  background-color: #0C1527;
+}
+
+.spinner {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border: 8px solid #7F622F;
+  border-radius: 50%;  
+  border-right: 8px solid #FB9C02;
+  width: 50px;
+  height: 50px;
+  animation-name: spin;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+@keyframes spin {
+  from { transform: rotate(0deg);}
+  to { transform: rotate(360deg);}
+}
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/46fceb49-d6bb-46d5-a705-2b6e2c132744)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/dc6821ed-f729-4ab0-89e0-6081f453ab92)
 ```html
+<html>
+<head>
+  <title>Mohd Rizwan's Profile</title>
+</head>
+<body>
+  <ul id="profile">
+    <img src="https://blob.sololearn.com/courses/ava.png">
+    <h2>Mohd Rizwan</h2>
+    <p>India</p>
+    <li>25 Followers</li>
+    <li>20 Following</li>
+    <li>⭐️1581 XP</li>
+
+  </ul>
+  <div id="streak">Streak
+    <ul>
+      <li class="active-day">M</li>
+      <li class="active-day">T</li>
+      <li class="active-day">W</li>
+      <li class="inactive-day">T</li>
+      <li class="inactive-day">F</li>
+      <li class="inactive-day">S</li>
+      <li class="inactive-day">S</li>
+    </ul>
+    <p>Current Streak: 3</p>
+    <p>Longest Streak: 16</p>
+  </div>
+</body>
+</html>
 ```
 ```css
+body{
+    background-color: darkslategrey;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+h2{
+    text-align: center;
+
+}
+img{
+    margin: 0 auto; 
+    display: block; 
+}
+#profile{
+    display: inline;
+    text-align: center;
+    color:#FFFFFF;
+    margin: 15px;
+}
+.active-day{
+    animation: pulse 2s infinite;
+    color: #26be26;
+}
+.inactive-day{
+    color: #CCCCCC;
+}
+ul {
+    list-style-type: none;
+}
+
+#streak {
+    padding-top:10px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+#streak {
+    color: #311b1b;
+}
+li #streak {
+    display:inline;
+}
+@keyframes pulse {
+    0% {
+        font-size: 100%;
+        }
+    50% {
+        font-size: 120%;
+        color: #00CC00;
+        }
+    100% {
+        font-size: 100%;
+    }
+}
 ```
+### Started with JavaScript 
+Inline JS
 ```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title</title>
+    </head>
+    <body>
+        <header>
+            <h1>ROBOT</h1>
+        </header>
+        <img id ='robot' src="https://blob.sololearn.com/courses/robot-c.jpg">
+        <br>
+        <button onclick= "robot.src='https://blob.sololearn.com/courses/robot-l.jpg'">Left</button>
+        <button onclick= "robot.src='https://blob.sololearn.com/courses/robot-c.jpg'">Center</button>
+        <button onclick="robot.src='https://blob.sololearn.com/courses/robot-r.jpg'">Right</button>
+    </body>
+</html>
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/bdb7f170-a4d7-4ff2-a201-0873e362163d)
+
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/b4734e87-ec14-4da1-a941-642e54234b7a)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/6bfd2817-e108-492e-b670-924d2b26a97b)
+
 ```css
 ```
 ```html
