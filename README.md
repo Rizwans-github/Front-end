@@ -1,4 +1,4 @@
-# Learning Front-End
+000000# Learning Front-End
 I'm fully committed to becoming a proficient data analyst. Balancing a full-time job and ongoing college.
 My main focus is data analysis, I'm also exploring front-end development to keep my coding interest intact.  
 I'm exploring web development with HTML, CSS, and JavaScript to add a practical layer to my skills. This dual focus aims to ensure a well-rounded approach to my professional growth.
@@ -3400,11 +3400,20 @@ Inline JS
 
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/b4734e87-ec14-4da1-a941-642e54234b7a)
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/6bfd2817-e108-492e-b670-924d2b26a97b)
+## Day 19:
 
-```css
-```
 ```html
+<p id="p1">This is a paragraph that will be styled.</p>
+
+<script>
+let p = document.getElementById('p1');
+p.style.color = "blue";
+p.style.border = "solid";
+</script>
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/9153cdeb-b72f-4b87-a0ad-2a64607e1d58)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/0f680873-5fb7-4afa-9dd3-05246c2c6f62)
+
 ```css
 ```
 ```html
