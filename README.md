@@ -3414,10 +3414,26 @@ p.style.border = "solid";
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/9153cdeb-b72f-4b87-a0ad-2a64607e1d58)
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/0f680873-5fb7-4afa-9dd3-05246c2c6f62)
 
-```css
-```
 ```html
+<p id="p1">Text</p>
+<button onclick = 'myFunction()'>
+Click to style the paragraph
+</button>
+
+<script>
+function myFunction() {
+let x = document.getElementById("p1");
+x.style.color = "green";
+x.style.border = "dashed";
+}
+</script>
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/efc9cfe5-3e24-46b9-9a59-c39080332d82)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/ae59b2c4-1f31-4453-a017-dda5ad1c8e5e)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/803c02f4-d8be-4360-933f-bdc1d0f645e1)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/5fbbd1b0-1721-4683-950c-e23a6f6afcd0)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/339fbbea-c8dd-48dd-8745-a5c09fca0839)
+## Day 19:
 ```css
 ```
 ```html
