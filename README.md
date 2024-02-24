@@ -1,8 +1,5 @@
-000000# Learning Front-End
-I'm fully committed to becoming a proficient data analyst. Balancing a full-time job and ongoing college.
-My main focus is data analysis, I'm also exploring front-end development to keep my coding interest intact.  
-I'm exploring web development with HTML, CSS, and JavaScript to add a practical layer to my skills. This dual focus aims to ensure a well-rounded approach to my professional growth.
-
+# Learning Front-End
+I am fully committed to achieving proficiency as a data analyst while simultaneously balancing the demands of a full-time job and ongoing college coursework. My primary professional focus is data analysis, although I am also carefully exploring the realm of front-end development to sustain my interest in coding. Specifically, I am actively learning about web development using HTML, CSS, and JavaScript in order to add a practical layer to my skill set. This dual focus is intended to ensure that I approach my professional growth with a well-rounded perspective.
 ## Day 1:
 ```html
 Here I am learning to create para and buttons
@@ -3434,11 +3431,70 @@ x.style.border = "dashed";
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/5fbbd1b0-1721-4683-950c-e23a6f6afcd0)
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/339fbbea-c8dd-48dd-8745-a5c09fca0839)
 ## Day 19:
-```css
-```
 ```html
+<body>
+  <form id="myForm">
+    <label for="city">Enter city:</label>
+    <input type="text" id="city"></br></br>
+    <label for="country">Enter country:</label>
+    <input type="text" id="country"></br></br>
+    <input type="submit">
+  </form>
+
+<div id="table">
+  <h2>Database Simulation</h2>
+  <table id="dataTable">
+    <tr>
+      <th>city</th>
+      <th>country</th>
+    </tr>
+  </table>
+</div>
+</body>
 ```
 ```css
+#table {
+    background-color: #525252;
+    padding: 20px;
+    color: white;
+}
+
+#dataTable {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #DDDDDD;
+    padding: 8px;
+}
+
+th {
+    background-color: #494949;
+    padding-top: 12px; 
+    padding-bottom: 12px; 
+    text-align: left;
+}
+
+h2{
+    text-align: center;
+}
+```
+```js
+function processFormData() {
+  // Access the form
+  let form = document.getElementById('myForm');
+  //Access the elements by name and get values
+  let city = form.elements.city.value;
+  let country = form.elements.country.value;
+
+  insertData(city, country);
+    
+  document.getElementById('city').value = '';
+  document.getElementById('country').value = '';
+};
 ```
 ```html
 ```
