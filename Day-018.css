@@ -1,0 +1,80 @@
+body {
+  background-color: #0C1527;
+}
+
+.spinner {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border: 8px solid #7F622F;
+  border-radius: 50%;  
+  border-right: 8px solid #FB9C02;
+  width: 50px;
+  height: 50px;
+  animation-name: spin;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+@keyframes spin {
+  from { transform: rotate(0deg);}
+  to { transform: rotate(360deg);}
+}
+
+body{
+    background-color: darkslategrey;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+h2{
+    text-align: center;
+
+}
+img{
+    margin: 0 auto; 
+    display: block; 
+}
+#profile{
+    display: inline;
+    text-align: center;
+    color:#FFFFFF;
+    margin: 15px;
+}
+.active-day{
+    animation: pulse 2s infinite;
+    color: #26be26;
+}
+.inactive-day{
+    color: #CCCCCC;
+}
+ul {
+    list-style-type: none;
+}
+
+#streak {
+    padding-top:10px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+#streak {
+    color: #311b1b;
+}
+li #streak {
+    display:inline;
+}
+@keyframes pulse {
+    0% {
+        font-size: 100%;
+        }
+    50% {
+        font-size: 120%;
+        color: #00CC00;
+        }
+    100% {
+        font-size: 100%;
+    }
+}
+
