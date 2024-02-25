@@ -3496,10 +3496,113 @@ function processFormData() {
   document.getElementById('country').value = '';
 };
 ```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/9bf0812b-a84f-42ff-95d1-3ad4e0ca6d04)
+### Calculations:
+```js
+console.log(7 + 3);
+console.log(10 - 5);
+console.log(5 * 3);
+console.log(10 / 2);
+
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/9cbfa6cb-9864-42d2-a516-f3bf1bb9fe09)
+### Booleans:
+```js
+console.log(30 < 25);
+console.log(5 < 9);
+console.log(50 > 100);
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/1e880105-4191-4793-8672-c7ff3141d2c5)
+```js
+let x = confirm("Proceed to payment?");
+console.log(x);
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/5e4427b3-d554-4d9a-a5ca-84eda8b413ad)
+```js
+function checkTicked() {
+  let box = document.getElementById("c1");
+  console.log(box.checked);
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/5b8a0e16-a50a-4406-8273-ec8c9fbca4a8)
+
 ```html
+<body>
+<h2>Payment</h2>
+
+<form id="myForm">
+  <label for="number">Card number:</label>
+  <input type="text" id="number" name="number"><br><br>
+
+  <label for="holder">Card holder's name:</label>
+  <input type="text" id="holder" name="holder"><br><br>
+
+  <p>Payment method:</p>
+  <input type="radio" id="r1" name="pay" value="cash">
+  <label for="r1">Cash</label>
+  <input type="radio" id="r2" name="pay" value="card">
+  <label for="r2">Card</label>
+  <input type="radio" id="r3" name="pay" value="credit">
+  <label for="r3">Credit</label></br></br>
+
+  <input type="button" onclick="processFormData()" value="Submit">
+  </form>
+
+  <div id="table">
+  <h2>Database Simulation</h2>
+  <table id="dataTable">
+    <tr>
+      <th>number</th>
+      <th>holder</th>
+      <th>method</th>
+    </tr>
+  </table>
+</div>
+</body>
 ```
 ```css
+#table {
+    background-color: #525252;
+    padding: 20px;
+    color: white;
+}
+
+#dataTable {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #DDDDDD;
+    padding: 8px;
+}
+
+th {
+    background-color: #494949;
+    padding-top: 12px; 
+    padding-bottom: 12px; 
+    text-align: left;
+}
 ```
+```js
+function processFormData() {
+  let form = document.getElementById('myForm');
+
+  let cardNumber = form.elements.number.value;
+  let holder = form.elements.holder.value;
+  let method = form.elements.pay.value;
+
+  //Insert data into table with predefined function
+  insertdata(cardNumber, holder, method);
+    
+  // Clear the form fields
+  clearFormData();
+};
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/e19cea4a-745b-4a3d-90db-25b707885754)
+
 ```html
 ```
 ```css
