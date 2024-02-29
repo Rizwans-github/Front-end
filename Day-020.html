@@ -1,0 +1,53 @@
+<body>
+  <form id="myForm">
+    <label for="city">Enter city:</label>
+    <input type="text" id="city"></br></br>
+    <label for="country">Enter country:</label>
+    <input type="text" id="country"></br></br>
+    <input type="submit">
+  </form>
+
+<div id="table">
+  <h2>Database Simulation</h2>
+  <table id="dataTable">
+    <tr>
+      <th>city</th>
+      <th>country</th>
+    </tr>
+  </table>
+</div>
+</body>
+
+
+<body>
+<h2>Payment</h2>
+
+<form id="myForm">
+  <label for="number">Card number:</label>
+  <input type="text" id="number" name="number"><br><br>
+
+  <label for="holder">Card holder's name:</label>
+  <input type="text" id="holder" name="holder"><br><br>
+
+  <p>Payment method:</p>
+  <input type="radio" id="r1" name="pay" value="cash">
+  <label for="r1">Cash</label>
+  <input type="radio" id="r2" name="pay" value="card">
+  <label for="r2">Card</label>
+  <input type="radio" id="r3" name="pay" value="credit">
+  <label for="r3">Credit</label></br></br>
+
+  <input type="button" onclick="processFormData()" value="Submit">
+  </form>
+
+  <div id="table">
+  <h2>Database Simulation</h2>
+  <table id="dataTable">
+    <tr>
+      <th>number</th>
+      <th>holder</th>
+      <th>method</th>
+    </tr>
+  </table>
+</div>
+</body>
