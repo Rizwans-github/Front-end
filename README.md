@@ -3430,7 +3430,7 @@ x.style.border = "dashed";
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/803c02f4-d8be-4360-933f-bdc1d0f645e1)
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/5fbbd1b0-1721-4683-950c-e23a6f6afcd0)
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/339fbbea-c8dd-48dd-8745-a5c09fca0839)
-## Day 19:
+## Day 20:
 ```html
 <body>
   <form id="myForm">
