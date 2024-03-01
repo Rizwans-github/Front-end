@@ -3602,15 +3602,125 @@ function processFormData() {
 };
 ```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/e19cea4a-745b-4a3d-90db-25b707885754)
+## Day 21:
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/da755f4e-e0ef-4b70-a89a-ba3669595e0d)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/17da8bfe-5a2c-44bc-ba70-1fb1091de825)
 
 ```html
+<h3>AND operation on user inputs</h3>
+<p>&& is the symbol for the AND operation in JavaScript syntax.</p>
+<p>Select and submit different combinations of inputs to see the result.</p>
+
+<form onsubmit="performAndOperation(event)">
+  <input type="checkbox" id="input1" name="input1">
+  <label for="input1">Input 1</label><br>
+
+  <input type="checkbox" id="input2" name="input2">
+  <label for="input2">Input 2</label><br></br>
+    
+  <input type="button" onclick="performAndOperation()" value="Submit">
+</form>
 ```
 ```css
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+form {
+  background-color: #F2F2F2;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+label {
+  margin-left: 10px;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
 ```
+```js
+function performAndOperation() {
+  let input1 = document.getElementById('input1').checked;
+  let input2 = document.getElementById('input2').checked;
+
+  let result = input1 && input2;
+  alert("Result of AND operation: " + result);
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/7f5ddacf-9efe-4c4c-acf6-36de4356061b)
+
 ```html
+<h3>OR operation on user inputs</h3>
+<p>|| is the symbol for the OR operation in JavaScript syntax.</p>
+<p>Select and submit different combinations of inputs to see the result.</p>
+
+  <form onsubmit="performAndOperation(event)">
+      <input type="checkbox" id="input1" name="input1">
+      <label for="input1">Input 1</label><br>
+
+      <input type="checkbox" id="input2" name="input2">
+      <label for="input2">Input 2</label><br></br>
+    
+      <input type="button" onclick="performAndOperation()" value="Submit">
+  </form>
 ```
 ```css
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+form {
+  background-color: #F2F2F2;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+label {
+  margin-left: 10px;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+} 
 ```
+```js
+function performAndOperation() {
+  let input1 = document.getElementById('input1').checked;
+  let input2 = document.getElementById('input2').checked;
+
+  let result = input1 || input2;
+  alert("Result of OR operation: " + result);
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/9006a553-79a3-4955-b342-c9ff2f44f21f)
+```js
+alert(true && false)
+alert(false && true)
+alert(true || false)
+alert(false || true)
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/2ce568cc-075f-4c78-a1ac-b781c2b7f5cc)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/3e4a73e4-a68a-4023-ae95-f1b3d6567335)
+
+
 ```html
 ```
 ```css
