@@ -3720,19 +3720,178 @@ alert(false || true)
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/2ce568cc-075f-4c78-a1ac-b781c2b7f5cc)
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/3e4a73e4-a68a-4023-ae95-f1b3d6567335)
 
+## Day 22:
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/babbc3ee-f982-48f9-84d1-84190cdb1647)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/c62dbb57-a604-4ec6-ad30-ebbab5d3736b)
+```js
+let age = prompt();
+
+if (age > 18) {
+  alert("Regular price");
+}
+else{
+  alert("Discount");
+}
+```
+```html
+<h2>New Video Game</h2>
+<p> To play the desired video game you need to be sure that the RAM volume of your PC is high enough.</p>
+  
+<button onclick="check()">Check</button>
+<p id="result"></p>
+```
+```css
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h2 {
+    color: #1a1aff;
+}
+
+p {
+    font-size: 18px;
+    margin: 20px auto;
+    width: 80%;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #d35400;
+}
+```
+```js
+function check() {
+  let ram = Number(prompt());
+  let element = document.getElementById('result');
+
+  if (ram > 16) {
+    element.textContent = 'Starting the game...';
+    } 
+  else {
+    element.textContent = 'PC upgrade needed';
+    }
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/f34c5a78-c22a-404c-a425-6cb18b2b4c2d)
 
 ```html
+<h2>Welcome to the Zoo!</h2>
+<p>We have a special offer for our visitors! Today, we are offering a special discount for our younger visitors. 
+</p>
+<p id="price">Ticket price will be displayed here.</p>
+<button onclick="calculate()">START</button>
 ```
 ```css
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  background-color: #F3F3F3;
+}
+
+h2 {
+  color: #4A7C59;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+#price {
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+button {
+  background-color: #4A7C59;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
 ```
+```js
+function calculate(){
+  let x = document.getElementById("price");
+
+  let isOver18 = confirm("Press OK if under 18");
+
+  if (isOver18 === true) {
+    x.textContent = "Discount: 10$";
+  }
+  else {
+    x.textContent = "Regular price: 50$";
+  }
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/ecca21fb-6ff9-4792-97f7-54e1a83450b3)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/dfe9d435-b5bd-44c4-b29e-b8428f2cb314)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/6afe47e4-dac8-4f06-916f-d22d2175b156)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/8e316c64-2eb0-4bf7-a21c-83b979dfe884)
+
 ```html
+<h2>Customize Your Product</h2>
+<p>Base Price: $20</p>
+<form id="productForm">
+  <label>Add an extended warranty for $5</label>
+  <input type="checkbox" id="feature"></br></br>
+  <button type="button" onclick="calculateTotal()">Calculate Total</button>
+</form>
+
+<p id="totalPrice"></p>
 ```
 ```css
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+input, button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#totalPrice {
+  font-size: 22px;
+  background-color: blueviolet;
+}
 ```
-```html
+```js
+function calculateTotal() {
+  let basePrice = 20;
+  let feature = document.getElementById('feature').checked;
+
+  if (feature) {
+    let total = basePrice + 5;
+    document.getElementById('totalPrice').textContent = total;
+  }
+  else {
+    document.getElementById('totalPrice').textContent = basePrice;
+  }
+}
 ```
-```css
-```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/902fb299-9acf-4272-9a72-d60b2fd120e4)
 ```html
 ```
 ```css
