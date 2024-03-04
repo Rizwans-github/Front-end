@@ -3892,14 +3892,104 @@ function calculateTotal() {
 }
 ```
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/902fb299-9acf-4272-9a72-d60b2fd120e4)
+## Day 23:
 ```html
+<form onsubmit="event.preventDefault(); checkDiscount();">
+  <label for="age">Enter your age:</label>
+  <input type="number" id="age" name="age"><br><br>
+
+  <label for="isStudent">Are you a student?</label>
+  <input type="checkbox" id="isStudent" name="isStudent"><br><br>
+
+  <input type="button" onclick="checkDiscount()" 
+  value="Check Discount Eligibility">
+</form>
+```
+```js
+
+function checkDiscount() {
+    let age=document.getElementById("age").value;
+    let isStudent=document.getElementById("isStudent").checked;
+
+    if (age<18 || isStudent) {
+        alert("Discount");
+    }    
+    else {
+        alert("Regular Price")
+    }
+}
+```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/efc8a67b-2dab-4d9d-b502-2279fbd05b19)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/6f63ffbb-e4d7-4050-8557-3ab7207394fd)
+
+```html
+<h2>Choose Your Products</h2>
+<select id = "product">
+    <option value=150>Smart Phone $150</option>
+    <option value=750>Laptop $750</option>
+    <option value=120>Headphones $120</option>
+</select><br>
+<input type="checkbox" id="insurance">
+<label for="insurance">Add insurance $10</label><br>
+<label for="quantity">Quantity:</label>
+<input type="number" min="1" id="quantity"><br>
+<button onclick="calculate()">Calculate Total</button>
+<p id="shipping">Shipping:</p>
+
 ```
 ```css
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+#productSection {
+  background-color: #F2F2F2;
+  padding: 20px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+select, input {
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #DDD;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+}
+}
 ```
-```html
+```js
+function calculate() {
+    let product= document.getElementById("product").value;
+    let insurance= document.getElementById("insurance").checked;
+    let quantity= document.getElementById("quantity").value;
+    let total=product*quantity+(insurance && 10);
+    let Shipping="";
+
+    if (total > 400) {
+        Shipping = "Free";
+    }
+    else if (total > 100) {
+        Shipping = "Discounted";
+    }
+    else {
+        Shipping = "Standard";
+    }
+
+    let ship = document.getElementById("shipping")
+    ship.textContent = ship.textContent + Shipping
+}
 ```
-```css
-```
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/f6ff0990-8eb2-429a-8c7d-d2a137fd7357)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/52276e60-c1f1-41a0-acc9-27d6bc748d9f)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/ef7546d1-61d1-4646-a2f3-a514a511c475)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/44a0fc53-19a7-49a8-bb6d-c07f999c5393)
+
 ```html
 ```
 ```css
