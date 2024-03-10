@@ -3989,6 +3989,12 @@ function calculate() {
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/52276e60-c1f1-41a0-acc9-27d6bc748d9f)
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/ef7546d1-61d1-4646-a2f3-a514a511c475)
 ![image](https://github.com/Rizwans-github/Front-end/assets/141806496/44a0fc53-19a7-49a8-bb6d-c07f999c5393)
+## Day 24:
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/0ac17cb4-64d4-42b3-a51d-a6d2efc7830c)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/e56dcbed-e42b-48cc-813e-6404af749250)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/61b6dad6-2ceb-41c0-a3c6-4d92a1881c7d)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/480bcb10-5abd-4a92-93cb-19a68e96e63f)
+![image](https://github.com/Rizwans-github/Front-end/assets/141806496/a5e88185-c26a-447e-8ab3-c843c436511f)
 
 ```html
 ```
